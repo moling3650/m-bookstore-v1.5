@@ -1,0 +1,1432 @@
+{
+  "result": 0,
+  "male": {
+    "ad_setting_name": "网文男频",
+    "items": [
+      {
+        "hash": "1d5b0371c58807b1bdba54e86152eed1",
+        "cate": {
+          "count": 4,
+          "description": "",
+          "fiction_count": 20104,
+          "image": "",
+          "label": "玄幻",
+          "new_image": "http://image.read.duokan.com/mfsv2/download/fdsc3/p01PjzDGfBYE/XnRaYkmdbKPAsy.jpg",
+          "category_id": 1000000,
+          "children": [
+            {
+              "description": "在东方化主角的设定下，综合描写基于法术、修炼，或异世界环境的幻想作品",
+              "fiction_count": 17584,
+              "image": "",
+              "label": "东方玄幻",
+              "new_image": "",
+              "category_id": 1000100,
+              "channel": 1
+            },
+            {
+              "description": "在与现实完全不同的一个包含西方中古世纪背景的异世界里所展开的作品",
+              "fiction_count": 2243,
+              "image": "",
+              "label": "异界大陆",
+              "new_image": "",
+              "category_id": 1000200,
+              "channel": 1
+            },
+            {
+              "description": "在与现实完全不同的一个包含西方中古世纪背景的异世界以争霸建立王朝为主线，会有一定的战争成份的作品",
+              "fiction_count": 190,
+              "image": "",
+              "label": "异界争霸",
+              "new_image": "",
+              "category_id": 1000300,
+              "channel": 1
+            },
+            {
+              "description": "根据各种神话故事演绎而出的带有西方、东方特色的上古传奇故事",
+              "fiction_count": 87,
+              "image": "",
+              "label": "远古神话",
+              "new_image": "",
+              "category_id": 1000400,
+              "channel": 1
+            }
+          ],
+          "channel": 1
+        },
+        "result": 0
+      },
+      {
+        "hash": "0d565d29c47e6a558f9c84f7a8c6d00e",
+        "cate": {
+          "count": 4,
+          "description": "",
+          "fiction_count": 2274,
+          "image": "",
+          "label": "奇幻",
+          "new_image": "http://image.read.duokan.com/mfsv2/download/fdsc3/p01jAurOHqeT/VupKBjfcty4ZtT.jpg",
+          "category_id": 2000000,
+          "children": [
+            {
+              "description": "以西方奇幻体系为参照，带有浓重剑与魔法系列风格的幻想作品",
+              "fiction_count": 1768,
+              "image": "",
+              "label": "西方奇幻",
+              "new_image": "",
+              "category_id": 2000100,
+              "channel": 1
+            },
+            {
+              "description": "以西方世袭领主贵族体系为背景，讲述领主贵族奋斗历程的作品",
+              "fiction_count": 87,
+              "image": "",
+              "label": "领主贵族",
+              "new_image": "",
+              "category_id": 2000200,
+              "channel": 1
+            },
+            {
+              "description": "西方背景下，以死灵、亡灵法师或其他非人类只会生命为主角的作品",
+              "fiction_count": 107,
+              "image": "",
+              "label": "亡灵异族",
+              "new_image": "",
+              "category_id": 2000300,
+              "channel": 1
+            },
+            {
+              "description": "以校园、学院为背景的魔法奇幻作品",
+              "fiction_count": 312,
+              "image": "",
+              "label": "魔法校园",
+              "new_image": "",
+              "category_id": 2000400,
+              "channel": 1
+            }
+          ],
+          "channel": 1
+        },
+        "result": 0
+      },
+      {
+        "hash": "b67e3a9eae542ec6b448b144795e97a2",
+        "cate": {
+          "count": 3,
+          "description": "",
+          "fiction_count": 2958,
+          "image": "",
+          "label": "武侠",
+          "new_image": "http://image.read.duokan.com/mfsv2/download/fdsc3/p01A0Td2ntOX/nZyJmNjLvjHMEk.jpg",
+          "category_id": 3000000,
+          "children": [
+            {
+              "description": "讲述仗剑天下、行侠仗义等传统武侠世界的作品",
+              "fiction_count": 2222,
+              "image": "",
+              "label": "传统武侠",
+              "new_image": "",
+              "category_id": 3000100,
+              "channel": 1
+            },
+            {
+              "description": "把武侠、历史、言情三者结合起来，将传统公案与现代推理揉为一体的作品",
+              "fiction_count": 163,
+              "image": "",
+              "label": "新派武侠",
+              "new_image": "",
+              "category_id": 3000200,
+              "channel": 1
+            },
+            {
+              "description": "在现代都市背景下获得国术传承的武者修行过程的作品",
+              "fiction_count": 573,
+              "image": "",
+              "label": "国术武技",
+              "new_image": "",
+              "category_id": 3000300,
+              "channel": 1
+            }
+          ],
+          "channel": 1
+        },
+        "result": 0
+      },
+      {
+        "hash": "32a7bf3fd606e5e091d9d195be145268",
+        "cate": {
+          "count": 4,
+          "description": "",
+          "new_image": "http://image.read.duokan.com/mfsv2/download/fdsc3/p01bv2RRnNWI/78E499b1m8uhYP.jpg",
+          "image": "",
+          "label": "仙侠",
+          "fiction_count": 6631,
+          "category_id": 4000000,
+          "children": [
+            {
+              "description": "以中国风情为背景，描写追求仙道、仙界争斗内容的作品",
+              "new_image": "",
+              "image": "",
+              "label": "古典仙侠",
+              "fiction_count": 5263,
+              "category_id": 4000100,
+              "channel": 1
+            },
+            {
+              "description": "运用修炼之法，在宇宙中、不同星球中，力图突破天人之境，飞升虚空的作品",
+              "new_image": "",
+              "image": "",
+              "label": "幻想修仙",
+              "fiction_count": 683,
+              "category_id": 4000200,
+              "channel": 1
+            },
+            {
+              "description": "在现在都市里，承袭上古修仙之术，并不断突破的作品",
+              "new_image": "",
+              "image": "",
+              "label": "现代修仙",
+              "fiction_count": 478,
+              "category_id": 4000300,
+              "channel": 1
+            },
+            {
+              "description": "以中国上古神话为背景，重绘盘古洪荒，三教封神，西游取经等内容作品",
+              "new_image": "",
+              "image": "",
+              "label": "洪荒封神",
+              "fiction_count": 207,
+              "category_id": 4000400,
+              "channel": 1
+            }
+          ],
+          "channel": 1
+        },
+        "result": 0
+      },
+      {
+        "hash": "9bb4169bd1111eb346f067c30bdce05c",
+        "cate": {
+          "count": 6,
+          "description": "",
+          "fiction_count": 49510,
+          "image": "",
+          "label": "都市",
+          "new_image": "http://image.read.duokan.com/mfsv2/download/fdsc3/p01rJKmsp1Yg/hdccBJJJhl5RWO.jpg",
+          "category_id": 5000000,
+          "children": [
+            {
+              "description": "现代大都市中发生的感情、生活、事业碰撞的作品",
+              "fiction_count": 2283,
+              "image": "",
+              "label": "都市生活",
+              "new_image": "",
+              "category_id": 5000100,
+              "channel": 1
+            },
+            {
+              "description": "近代、当代现实背景下的情感婚姻、家庭伦理、婆媳关系的作品",
+              "fiction_count": 43661,
+              "image": "",
+              "label": "爱情婚姻",
+              "new_image": "",
+              "category_id": 5000200,
+              "channel": 1
+            },
+            {
+              "description": "这类作品的主角拥有类似美国超级英雄一样的特色超能力。",
+              "fiction_count": 2949,
+              "image": "",
+              "label": "异术超能",
+              "new_image": "",
+              "category_id": 5000300,
+              "channel": 1
+            },
+            {
+              "description": "以江湖兄弟情义、社会仇杀、杀手恩怨等为背景的作品",
+              "fiction_count": 241,
+              "image": "",
+              "label": "恩怨情仇",
+              "new_image": "",
+              "category_id": 5000400,
+              "channel": 1
+            },
+            {
+              "description": "这类作品的主角只是普通人，故事剧情都贴近现实生活，类似现代都市电视剧。",
+              "fiction_count": 253,
+              "image": "",
+              "label": "现实百态",
+              "new_image": "",
+              "category_id": 5000500,
+              "channel": 1
+            },
+            {
+              "description": "这类作品的故事剧情都发生在校园，主角一般都是学生。",
+              "fiction_count": 243,
+              "image": "",
+              "label": "青春校园",
+              "new_image": "",
+              "category_id": 5000600,
+              "channel": 1
+            }
+          ],
+          "channel": 1
+        },
+        "result": 0
+      },
+      {
+        "hash": "4004fdab80f3c50c6c41ec2e6a18c2f4",
+        "cate": {
+          "count": 9,
+          "description": "",
+          "fiction_count": 12652,
+          "image": "",
+          "label": "历史",
+          "new_image": "http://image.read.duokan.com/mfsv2/download/fdsc3/p01Y8lYwVZ9W/WLNfnPS2Phc1G8.jpg",
+          "category_id": 6000000,
+          "children": [
+            {
+              "description": "主角在虚拟世界的朝代历史沉浮，改变自己和他人的命运的作品",
+              "fiction_count": 3316,
+              "image": "",
+              "label": "架空历史",
+              "new_image": "",
+              "category_id": 6000100,
+              "channel": 1
+            },
+            {
+              "description": "以史前原始社会、古代春秋、战国为为背景的虚构类作品。",
+              "fiction_count": 7972,
+              "image": "",
+              "label": "上古先秦",
+              "new_image": "",
+              "category_id": 6000200,
+              "channel": 1
+            },
+            {
+              "description": "以古代秦朝、汉朝、三国为背景的虚构类作品。",
+              "fiction_count": 366,
+              "image": "",
+              "label": "秦汉三国",
+              "new_image": "",
+              "category_id": 6000300,
+              "channel": 1
+            },
+            {
+              "description": "以古代晋朝、隋朝、唐朝为背景的虚构类作品。",
+              "fiction_count": 236,
+              "image": "",
+              "label": "两晋隋唐",
+              "new_image": "",
+              "category_id": 6000400,
+              "channel": 1
+            },
+            {
+              "description": "以古代五代十国为背景的虚构类作品。",
+              "fiction_count": 17,
+              "image": "",
+              "label": "五代十国",
+              "new_image": "",
+              "category_id": 6000500,
+              "channel": 1
+            },
+            {
+              "description": "以古代宋朝、元朝、明朝为背景的虚构类作品。",
+              "fiction_count": 447,
+              "image": "",
+              "label": "两宋元明",
+              "new_image": "",
+              "category_id": 6000600,
+              "channel": 1
+            },
+            {
+              "description": "以古代清朝、近代民国为背景的虚构类作品。",
+              "fiction_count": 182,
+              "image": "",
+              "label": "清史民国",
+              "new_image": "",
+              "category_id": 6000700,
+              "channel": 1
+            },
+            {
+              "description": "以外国历史为背景的虚构作品",
+              "fiction_count": 63,
+              "image": "",
+              "label": "外国历史",
+              "new_image": "",
+              "category_id": 6000800,
+              "channel": 1
+            },
+            {
+              "description": "以史实方式，纪述朝代历史、历史人物的传纪类作品。",
+              "fiction_count": 53,
+              "image": "",
+              "label": "历史传记",
+              "new_image": "",
+              "category_id": 6000900,
+              "channel": 1
+            }
+          ],
+          "channel": 1
+        },
+        "result": 0
+      },
+      {
+        "hash": "8011b2a8332e1e80138c5833fc645f5a",
+        "cate": {
+          "count": 5,
+          "description": "",
+          "fiction_count": 1259,
+          "image": "",
+          "label": "军事",
+          "new_image": "http://image.read.duokan.com/mfsv2/download/fdsc3/p010zw5taLnG/oDuHVNfbpmHl5g.jpg",
+          "category_id": 7000000,
+          "children": [
+            {
+              "description": "以虚拟时空为主，模拟现代、当代背景发生军事战争的作品",
+              "fiction_count": 1023,
+              "image": "",
+              "label": "战争幻想",
+              "new_image": "",
+              "category_id": 7000100,
+              "channel": 1
+            },
+            {
+              "description": "围绕近代、当代的间谍和特工两个特殊职业展开的作品",
+              "fiction_count": 50,
+              "image": "",
+              "label": "谍战特工",
+              "new_image": "",
+              "category_id": 7000200,
+              "channel": 1
+            },
+            {
+              "description": "描绘现代或当代各军种军人生活、训练的作品",
+              "fiction_count": 40,
+              "image": "",
+              "label": "军旅生涯",
+              "new_image": "",
+              "category_id": 7000300,
+              "channel": 1
+            },
+            {
+              "description": "以描写抗战为主线的作品",
+              "fiction_count": 72,
+              "image": "",
+              "label": "抗战烽火",
+              "new_image": "",
+              "category_id": 7000400,
+              "channel": 1
+            },
+            {
+              "description": "这类作品都是围绕着军事战争故事展开，一般为现代战争。",
+              "fiction_count": 74,
+              "image": "",
+              "label": "军事战争",
+              "new_image": "",
+              "category_id": 7000500,
+              "channel": 1
+            }
+          ],
+          "channel": 1
+        },
+        "result": 0
+      },
+      {
+        "hash": "293218670913670e73eb0821c7824e02",
+        "cate": {
+          "count": 4,
+          "description": "",
+          "fiction_count": 5021,
+          "image": "",
+          "label": "灵异",
+          "new_image": "http://image.read.duokan.com/mfsv2/download/fdsc3/p01P2uvWsm1M/MqCuJKxKbV0TAT.jpg",
+          "category_id": 8000000,
+          "children": [
+            {
+              "description": "以案件发生和推理侦破过程为主要描写对象的作品",
+              "fiction_count": 1562,
+              "image": "",
+              "label": "推理侦探",
+              "new_image": "",
+              "category_id": 8000100,
+              "channel": 1
+            },
+            {
+              "description": "以恐怖为主、意图带给读者恐怖感（达到使其恐惧的目的）的作品",
+              "fiction_count": 576,
+              "image": "",
+              "label": "恐怖惊悚",
+              "new_image": "",
+              "category_id": 8000200,
+              "channel": 1
+            },
+            {
+              "description": "以主角经历各种不寻常的冒险事件为中心，含有悬念贯穿始终并最终揭开的作品",
+              "fiction_count": 618,
+              "image": "",
+              "label": "悬疑探险",
+              "new_image": "",
+              "category_id": 8000300,
+              "channel": 1
+            },
+            {
+              "description": "以神鬼等超自然事物为题材，带有较强的奇幻色彩和民间特性",
+              "fiction_count": 2265,
+              "image": "",
+              "label": "灵异奇谈",
+              "new_image": "",
+              "category_id": 8000400,
+              "channel": 1
+            }
+          ],
+          "channel": 1
+        },
+        "result": 0
+      },
+      {
+        "hash": "90a8d79b2adf3b9bf1e2085cef964cc4",
+        "cate": {
+          "count": 7,
+          "description": "",
+          "fiction_count": 3734,
+          "image": "",
+          "label": "科幻",
+          "new_image": "http://image.read.duokan.com/mfsv2/download/fdsc3/p0148G9JrkuQ/aDH9eCf2L69KM2.jpg",
+          "category_id": 9000000,
+          "children": [
+            {
+              "description": "在星际时代，围绕战争演绎的作品",
+              "fiction_count": 168,
+              "image": "",
+              "label": "星际战争",
+              "new_image": "",
+              "category_id": 9000100,
+              "channel": 1
+            },
+            {
+              "description": "在不同时空与位面间穿梭、旅行的作品",
+              "fiction_count": 701,
+              "image": "",
+              "label": "时空穿梭",
+              "new_image": "",
+              "category_id": 9000200,
+              "channel": 1
+            },
+            {
+              "description": "古代武学与机甲世界为背景的作品",
+              "fiction_count": 98,
+              "image": "",
+              "label": "古武机甲",
+              "new_image": "",
+              "category_id": 9000400,
+              "channel": 1
+            },
+            {
+              "description": "以未来世界为背景的作品",
+              "fiction_count": 1897,
+              "image": "",
+              "label": "未来世界",
+              "new_image": "",
+              "category_id": 9000300,
+              "channel": 1
+            },
+            {
+              "description": "未来科技，外星科技，以现实科技为题材的作品",
+              "fiction_count": 157,
+              "image": "",
+              "label": "超级科技",
+              "new_image": "",
+              "category_id": 9000500,
+              "channel": 1
+            },
+            {
+              "description": "描述生命体因为某种人为或非人为因素而发生变异，并以此展开剧情的作品",
+              "fiction_count": 229,
+              "image": "",
+              "label": "进化变异",
+              "new_image": "",
+              "category_id": 9000600,
+              "channel": 1
+            },
+            {
+              "description": "因为战争或科技失控，或某种意外灾难，人类文明被毁灭或即将毁灭，以此为背景的作品",
+              "fiction_count": 484,
+              "image": "",
+              "label": "末世危机",
+              "new_image": "",
+              "category_id": 9000700,
+              "channel": 1
+            }
+          ],
+          "channel": 1
+        },
+        "result": 0
+      },
+      {
+        "hash": "9200e2984839121ba39385c64b3b8e6c",
+        "cate": {
+          "count": 4,
+          "description": "",
+          "fiction_count": 3185,
+          "image": "",
+          "label": "游戏",
+          "new_image": "http://image.read.duokan.com/mfsv2/download/fdsc3/p01BWbO07ZPr/UaE2VHTQr8nTxO.jpg",
+          "category_id": 10000000,
+          "children": [
+            {
+              "description": "描写职业玩家现实的电子游戏、网络游戏生活的作品",
+              "fiction_count": 1302,
+              "image": "",
+              "label": "游戏生涯",
+              "new_image": "",
+              "category_id": 10000100,
+              "channel": 1
+            },
+            {
+              "description": "描绘职业玩家团队或个人，征战电子竞技比赛的作品",
+              "fiction_count": 329,
+              "image": "",
+              "label": "电子竞技",
+              "new_image": "",
+              "category_id": 10000200,
+              "channel": 1
+            },
+            {
+              "description": "描写头盔式虚拟现实网游、未来世界网游生活的作品",
+              "fiction_count": 985,
+              "image": "",
+              "label": "虚拟网游",
+              "new_image": "",
+              "category_id": 10000300,
+              "channel": 1
+            },
+            {
+              "description": "将游戏中的装备或技能带入现实世界或其它游戏中，或者主角进入游戏世界中的作品",
+              "fiction_count": 569,
+              "image": "",
+              "label": "游戏异界",
+              "new_image": "",
+              "category_id": 10000400,
+              "channel": 1
+            }
+          ],
+          "channel": 1
+        },
+        "result": 0
+      },
+      {
+        "hash": "5c6a38c42b666b2fe975ba1158ae20bc",
+        "cate": {
+          "count": 4,
+          "description": "",
+          "new_image": "http://image.read.duokan.com/mfsv2/download/fdsc3/p01YbHx3llAs/Oij4pp5WQzKXid.jpg",
+          "image": "",
+          "label": "竞技",
+          "fiction_count": 594,
+          "category_id": 11000000,
+          "children": [
+            {
+              "description": "讲述传统体育竞技、比赛以及运动员成长或通过商业手段经营球队和运作相关公司的作品",
+              "new_image": "",
+              "image": "",
+              "label": "体育竞技",
+              "fiction_count": 228,
+              "category_id": 11000100,
+              "channel": 1
+            },
+            {
+              "description": "讲述以篮球比赛为背景的作品",
+              "new_image": "",
+              "image": "",
+              "label": "篮球运动",
+              "fiction_count": 171,
+              "category_id": 11000200,
+              "channel": 1
+            },
+            {
+              "description": "讲述以足球比赛为背景的作品",
+              "new_image": "",
+              "image": "",
+              "label": "足球运动",
+              "fiction_count": 182,
+              "category_id": 11000300,
+              "channel": 1
+            },
+            {
+              "description": "讲述以棋类竞技为背景的作品",
+              "new_image": "",
+              "image": "",
+              "label": "弈林春秋",
+              "fiction_count": 13,
+              "category_id": 11000400,
+              "channel": 1
+            }
+          ],
+          "channel": 1
+        },
+        "result": 0
+      },
+      {
+        "hash": "1bb9cfdbabd2d564a948719d9d2452af",
+        "cate": {
+          "count": 4,
+          "description": "",
+          "fiction_count": 356,
+          "image": "",
+          "label": "同人",
+          "new_image": "http://image.read.duokan.com/mfsv2/download/fdsc3/p01FmIS2K6Cf/YEldbDFpRKe8Hl.jpg",
+          "category_id": 12000000,
+          "children": [
+            {
+              "description": "以武侠小说的背景、剧情或人物为基础，依托原著进行再创作的作品",
+              "fiction_count": 56,
+              "image": "",
+              "label": "武侠同人",
+              "new_image": "",
+              "category_id": 12000100,
+              "channel": 1
+            },
+            {
+              "description": "以动漫作品的背景、剧情或人物为基础，依托原著进行再创作的作品",
+              "fiction_count": 14,
+              "image": "",
+              "label": "动漫同人",
+              "new_image": "",
+              "category_id": 12000300,
+              "channel": 1
+            },
+            {
+              "description": "以游戏作品的背景、剧情或人物为基础，依托原著进行再创作的作品",
+              "fiction_count": 49,
+              "image": "",
+              "label": "游戏同人",
+              "new_image": "",
+              "category_id": 12000400,
+              "channel": 1
+            },
+            {
+              "description": "以他人小说的背景、剧情或人物为基础，依托原著进行再创作的作品",
+              "fiction_count": 237,
+              "image": "",
+              "label": "小说同人",
+              "new_image": "",
+              "category_id": 12000500,
+              "channel": 1
+            }
+          ],
+          "channel": 1
+        },
+        "result": 0
+      },
+      {
+        "hash": "581be3a973a86f69d65ce7078b81134b",
+        "cate": {
+          "count": 3,
+          "description": "",
+          "new_image": "http://image.read.duokan.com/mfsv2/download/fdsc3/p01nsU2QvzTr/Dt03dr3YYDZhgB.jpg",
+          "image": "",
+          "label": "职场",
+          "fiction_count": 7109,
+          "category_id": 13000000,
+          "children": [
+            {
+              "description": "真实或虚拟的娱乐圈历史变迁、娱乐事业沉浮、明星镜头前后故事的作品",
+              "new_image": "",
+              "image": "",
+              "label": "娱乐明星",
+              "fiction_count": 401,
+              "category_id": 13000100,
+              "channel": 1
+            },
+            {
+              "description": "以官场为主题或背景，描绘为官为民的作品",
+              "new_image": "",
+              "image": "",
+              "label": "官场沉浮",
+              "fiction_count": 208,
+              "category_id": 13000200,
+              "channel": 1
+            },
+            {
+              "description": "当代商场、创业、股市、金融等领域生活、冲突或在职场中男女的奋斗、生活、感慨人生的作品",
+              "new_image": "",
+              "image": "",
+              "label": "商战职场",
+              "fiction_count": 6500,
+              "category_id": 13000300,
+              "channel": 1
+            }
+          ],
+          "channel": 1
+        },
+        "result": 0
+      },
+      {
+        "hash": "340128b4845325600bacf53b09cb82ac",
+        "cate": {
+          "count": 2,
+          "description": "",
+          "new_image": "http://image.read.duokan.com/mfsv2/download/fdsc3/p011A6KXoPUi/CSWPz04rJEXa4s.jpg",
+          "image": "",
+          "label": "短篇",
+          "fiction_count": 5,
+          "category_id": 14000000,
+          "children": [
+            {
+              "description": "用以表述和描写电影、电视内容的剧本、台本、拍摄工作记录",
+              "new_image": "",
+              "image": "",
+              "label": "影视剧本",
+              "fiction_count": 1,
+              "category_id": 14000100,
+              "channel": 1
+            },
+            {
+              "description": "散文随笔中自由而富有韵律的语词文体内容，以及描写旅行见闻的内容",
+              "new_image": "",
+              "image": "",
+              "label": "美文游记",
+              "fiction_count": 4,
+              "category_id": 14000400,
+              "channel": 1
+            }
+          ],
+          "channel": 1
+        },
+        "result": 0
+      }
+    ]
+  },
+  "female": {
+    "ad_setting_name": "网文女频",
+    "items": [
+      {
+        "hash": "f2254d2113843c428a92c30c85733c46",
+        "cate": {
+          "count": 6,
+          "description": "",
+          "new_image": "http://image.read.duokan.com/mfsv2/download/fdsc3/p01BR3ZwCFVT/TEN8LaM4mHcGzE.jpg",
+          "image": "",
+          "label": "玄幻言情",
+          "fiction_count": 2943,
+          "category_id": 15000000,
+          "children": [
+            {
+              "description": "在东方化女性主角的设定下，综合描写基于法术、修炼、灵宠，或异世界环境的幻想作品",
+              "new_image": "",
+              "image": "",
+              "label": "东方玄幻",
+              "fiction_count": 1169,
+              "category_id": 15000100,
+              "channel": 2
+            },
+            {
+              "description": "在与现实完全不同的一个包含西方中古世纪背景的异世界里所展开的偏女性化的作品",
+              "new_image": "",
+              "image": "",
+              "label": "异世大陆",
+              "fiction_count": 341,
+              "category_id": 15000200,
+              "channel": 2
+            },
+            {
+              "description": "根据各种神话故事演绎而出的带有西方、东方特色的上古传奇爱情故事",
+              "new_image": "",
+              "image": "",
+              "label": "远古神话",
+              "fiction_count": 18,
+              "category_id": 15000300,
+              "channel": 2
+            },
+            {
+              "description": "以跨越生物种族的爱情为主要内容的作品",
+              "new_image": "",
+              "image": "",
+              "label": "异族恋情",
+              "fiction_count": 243,
+              "category_id": 15000400,
+              "channel": 2
+            },
+            {
+              "description": "带有魔法、魔宠等元素的幻想言情作品",
+              "new_image": "",
+              "image": "",
+              "label": "魔法幻情",
+              "fiction_count": 202,
+              "category_id": 15000500,
+              "channel": 2
+            },
+            {
+              "description": "以西方奇幻体系为参照，带有较多超自然元素的以幻想世界为主要内容的作品",
+              "new_image": "",
+              "image": "",
+              "label": "西方奇幻",
+              "fiction_count": 970,
+              "category_id": 15000600,
+              "channel": 2
+            }
+          ],
+          "channel": 2
+        },
+        "result": 0
+      },
+      {
+        "hash": "2f18b56a904d8e44d041f476d9a970d9",
+        "cate": {
+          "count": 4,
+          "description": "",
+          "fiction_count": 1513,
+          "image": "",
+          "label": "仙侠奇缘",
+          "new_image": "http://image.read.duokan.com/mfsv2/download/fdsc3/p01ZqwpZ8oKg/feoI8ioQNIkrZt.jpg",
+          "category_id": 16000000,
+          "children": [
+            {
+              "description": "讲述仗剑天下、快意恩仇的武侠世界里的爱情故事",
+              "fiction_count": 49,
+              "image": "",
+              "label": "武侠情缘",
+              "new_image": "",
+              "category_id": 16000100,
+              "channel": 2
+            },
+            {
+              "description": "以中国风情为背景，描写追求仙道、仙界争斗环境下的言情作品",
+              "fiction_count": 1315,
+              "image": "",
+              "label": "古典仙侠",
+              "new_image": "",
+              "category_id": 16000200,
+              "channel": 2
+            },
+            {
+              "description": "在现代都市里，修习上古修仙法术的女主作品",
+              "fiction_count": 147,
+              "image": "",
+              "label": "现代修真",
+              "new_image": "",
+              "category_id": 16000300,
+              "channel": 2
+            },
+            {
+              "description": "以中国上古神话为背景，重绘盘古洪荒，三教封神，西游取经等内容作品",
+              "fiction_count": 2,
+              "image": "",
+              "label": "洪荒传说",
+              "new_image": "",
+              "category_id": 16000400,
+              "channel": 2
+            }
+          ],
+          "channel": 2
+        },
+        "result": 0
+      },
+      {
+        "hash": "47bd13bac01fbdb791150fd1ef7f8a91",
+        "cate": {
+          "count": 6,
+          "description": "",
+          "fiction_count": 30204,
+          "image": "",
+          "label": "古代言情",
+          "new_image": "http://image.read.duokan.com/mfsv2/download/fdsc3/p01iid4nqHCp/M13cI2oxLZHdgR.jpg",
+          "category_id": 17000000,
+          "children": [
+            {
+              "description": "以女尊男卑为背景设定的作品",
+              "fiction_count": 2288,
+              "image": "",
+              "label": "女尊王朝",
+              "new_image": "",
+              "category_id": 17000100,
+              "channel": 2
+            },
+            {
+              "description": "以架空古代为世界背景设定的作品，不含宫斗宅斗为主线的作品",
+              "fiction_count": 12831,
+              "image": "",
+              "label": "古典架空",
+              "new_image": "",
+              "category_id": 17000200,
+              "channel": 2
+            },
+            {
+              "description": "以真实历史为背景，以女性为主角展开的一系列有关感情和生活的作品",
+              "fiction_count": 1631,
+              "image": "",
+              "label": "古代情缘",
+              "new_image": "",
+              "category_id": 17000300,
+              "channel": 2
+            },
+            {
+              "description": "以穿越时空为背景设定的作品",
+              "fiction_count": 11087,
+              "image": "",
+              "label": "穿越奇情",
+              "new_image": "",
+              "category_id": 17000400,
+              "channel": 2
+            },
+            {
+              "description": "以中国古代宫廷或者豪门世家为小说背景，以后妃或者妻妾之间争斗为主要内容的作品",
+              "fiction_count": 1383,
+              "image": "",
+              "label": "宫闱宅斗",
+              "new_image": "",
+              "category_id": 17000500,
+              "channel": 2
+            },
+            {
+              "description": "以古代农户或者古代小家庭的日常生活以及发家致富为主要内容的作品",
+              "fiction_count": 984,
+              "image": "",
+              "label": "经商种田",
+              "new_image": "",
+              "category_id": 17000600,
+              "channel": 2
+            }
+          ],
+          "channel": 2
+        },
+        "result": 0
+      },
+      {
+        "hash": "c8a4a41c06ce44391b953fc97b3c5971",
+        "cate": {
+          "count": 9,
+          "description": "",
+          "fiction_count": 27481,
+          "image": "",
+          "label": "现代言情",
+          "new_image": "http://image.read.duokan.com/mfsv2/download/fdsc3/p01uAmaXDpCp/I8X44Zrh3SzdGA.jpg",
+          "category_id": 18000000,
+          "children": [
+            {
+              "description": "现代大都市中发生的感情、生活、事业碰撞的作品",
+              "fiction_count": 19373,
+              "image": "",
+              "label": "都市生活",
+              "new_image": "",
+              "category_id": 18000100,
+              "channel": 2
+            },
+            {
+              "description": "近代、当代现实背景下的情感婚姻、家庭伦理、婆媳关系的作品",
+              "fiction_count": 1687,
+              "image": "",
+              "label": "婚恋情缘",
+              "new_image": "",
+              "category_id": 18000200,
+              "channel": 2
+            },
+            {
+              "description": "真实或虚拟的娱乐圈历史变迁、娱乐事业沉浮、明星镜头前后故事的作品",
+              "fiction_count": 220,
+              "image": "",
+              "label": "娱乐明星",
+              "new_image": "",
+              "category_id": 18000300,
+              "channel": 2
+            },
+            {
+              "description": "以官场为主题或背景，描绘女性主角为官为民的作品",
+              "fiction_count": 28,
+              "image": "",
+              "label": "官场沉浮",
+              "new_image": "",
+              "category_id": 18000400,
+              "channel": 2
+            },
+            {
+              "description": "当代商场、创业、股市、金融等领域生活、冲突或在职场中男女的奋斗、生活、感慨人生的作品",
+              "fiction_count": 109,
+              "image": "",
+              "label": "商战职场",
+              "new_image": "",
+              "category_id": 18000500,
+              "channel": 2
+            },
+            {
+              "description": "女性主角在现实社会中意外获得超能力，从而改变人生的作品",
+              "fiction_count": 289,
+              "image": "",
+              "label": "异术超能",
+              "new_image": "",
+              "category_id": 18000600,
+              "channel": 2
+            },
+            {
+              "description": "在现代背景下，以主角之一身份为豪门高干子弟或高管，进而展开的作品",
+              "fiction_count": 5732,
+              "image": "",
+              "label": "豪门世家",
+              "new_image": "",
+              "category_id": 18000700,
+              "channel": 2
+            },
+            {
+              "description": "以江湖兄弟情义、社会仇杀、杀手恩怨等为背景的女主作品",
+              "fiction_count": 29,
+              "image": "",
+              "label": "极道江湖",
+              "new_image": "",
+              "category_id": 18000800,
+              "channel": 2
+            },
+            {
+              "description": "以民国历史时期为背景的都市爱情故事",
+              "fiction_count": 14,
+              "image": "",
+              "label": "民国情缘",
+              "new_image": "",
+              "category_id": 18000900,
+              "channel": 2
+            }
+          ],
+          "channel": 2
+        },
+        "result": 0
+      },
+      {
+        "hash": "4be9ffd6a05e6fd0d9639c0cb7c4b848",
+        "cate": {
+          "count": 4,
+          "description": "",
+          "fiction_count": 3094,
+          "image": "",
+          "label": "浪漫青春",
+          "new_image": "http://image.read.duokan.com/mfsv2/download/fdsc3/p01C6CyTDfx1/ClruUbGn2Y1EJf.jpg",
+          "category_id": 19000000,
+          "children": [
+            {
+              "description": "以叛逆、成长为内容主题的作品",
+              "fiction_count": 1893,
+              "image": "",
+              "label": "叛逆成长",
+              "new_image": "",
+              "category_id": 19000100,
+              "channel": 2
+            },
+            {
+              "description": "以青春爱情为内容主题的作品",
+              "fiction_count": 407,
+              "image": "",
+              "label": "青春纯爱",
+              "new_image": "",
+              "category_id": 19000200,
+              "channel": 2
+            },
+            {
+              "description": "以青春期男女的成长之痛和他们的哀伤寂寞为主题的作品",
+              "fiction_count": 95,
+              "image": "",
+              "label": "青春疼痛",
+              "new_image": "",
+              "category_id": 19000300,
+              "channel": 2
+            },
+            {
+              "description": "以发生在校园的故事背景为主线的作品，现实或轻幻想皆可",
+              "fiction_count": 698,
+              "image": "",
+              "label": "青春校园",
+              "new_image": "",
+              "category_id": 19000400,
+              "channel": 2
+            }
+          ],
+          "channel": 2
+        },
+        "result": 0
+      },
+      {
+        "hash": "16840a8ab29717ef03a0e7720ef0044b",
+        "cate": {
+          "count": 5,
+          "description": "",
+          "new_image": "http://image.read.duokan.com/mfsv2/download/fdsc3/p01p0bkN95rd/28qprsFyXXFRiB.jpg",
+          "image": "",
+          "label": "悬疑灵异",
+          "fiction_count": 530,
+          "category_id": 20000000,
+          "children": [
+            {
+              "description": "以案件发生和推理侦破过程为主要描写对象的作品",
+              "new_image": "",
+              "image": "",
+              "label": "推理侦探",
+              "fiction_count": 57,
+              "category_id": 20000100,
+              "channel": 2
+            },
+            {
+              "description": "以恐怖为主、意图带给读者恐怖感（达到使其恐惧的目的）的作品",
+              "new_image": "",
+              "image": "",
+              "label": "恐怖惊悚",
+              "fiction_count": 71,
+              "category_id": 20000200,
+              "channel": 2
+            },
+            {
+              "description": "以主角经历各种不寻常的冒险事件为中心，含有悬念贯穿始终并最终揭开的作品",
+              "new_image": "",
+              "image": "",
+              "label": "悬疑探险",
+              "fiction_count": 47,
+              "category_id": 20000300,
+              "channel": 2
+            },
+            {
+              "description": "以神鬼等超自然事物为题材，带有较强的奇幻色彩和民间特性",
+              "new_image": "",
+              "image": "",
+              "label": "灵异鬼怪",
+              "fiction_count": 246,
+              "category_id": 20000400,
+              "channel": 2
+            },
+            {
+              "description": "以解释和探秘风水、相面、命理知识、民俗文化为主的故事。",
+              "new_image": "",
+              "image": "",
+              "label": "神秘文化",
+              "fiction_count": 109,
+              "category_id": 20000500,
+              "channel": 2
+            }
+          ],
+          "channel": 2
+        },
+        "result": 0
+      },
+      {
+        "hash": "628e6d82f4e7f228d4cacd94e19b14b1",
+        "cate": {
+          "count": 7,
+          "description": "",
+          "fiction_count": 846,
+          "image": "",
+          "label": "科幻空间",
+          "new_image": "http://image.read.duokan.com/mfsv2/download/fdsc3/p01CZK0sxP9o/cqhUW20bu1nGTL.jpg",
+          "category_id": 21000000,
+          "children": [
+            {
+              "description": "星际时代发生在不同星球之间、或星际旅途中的爱情故事。",
+              "fiction_count": 122,
+              "image": "",
+              "label": "星际恋歌",
+              "new_image": "",
+              "category_id": 21000100,
+              "channel": 2
+            },
+            {
+              "description": "在不同时空与位面间穿梭、旅行的女性言情作品",
+              "fiction_count": 146,
+              "image": "",
+              "label": "时空穿梭",
+              "new_image": "",
+              "category_id": 21000200,
+              "channel": 2
+            },
+            {
+              "description": "以未来世界为背景的女性言情作品",
+              "fiction_count": 401,
+              "image": "",
+              "label": "未来世界",
+              "new_image": "",
+              "category_id": 21000300,
+              "channel": 2
+            },
+            {
+              "description": "古代武学与机甲世界为背景的女性言情作品",
+              "fiction_count": 5,
+              "image": "",
+              "label": "古武机甲",
+              "new_image": "",
+              "category_id": 21000400,
+              "channel": 2
+            },
+            {
+              "description": "未来科技，外星科技，以现实科技为题材的女性言情作品",
+              "fiction_count": 5,
+              "image": "",
+              "label": "超级科技",
+              "new_image": "",
+              "category_id": 21000500,
+              "channel": 2
+            },
+            {
+              "description": "描述女主生命体因为某种人为或非人为因素而发生变异，并以此展开剧情的作品",
+              "fiction_count": 13,
+              "image": "",
+              "label": "进化变异",
+              "new_image": "",
+              "category_id": 21000600,
+              "channel": 2
+            },
+            {
+              "description": "因为战争或科技失控，或某种意外灾难，人类文明被毁灭或即将毁灭，以此为背景的爱情作品",
+              "fiction_count": 154,
+              "image": "",
+              "label": "末世危机",
+              "new_image": "",
+              "category_id": 21000700,
+              "channel": 2
+            }
+          ],
+          "channel": 2
+        },
+        "result": 0
+      },
+      {
+        "hash": "d5627c8773fed135ce22db5a599c54aa",
+        "cate": {
+          "count": 4,
+          "description": "",
+          "fiction_count": 645,
+          "image": "",
+          "label": "游戏竞技",
+          "new_image": "http://image.read.duokan.com/mfsv2/download/fdsc3/p01Jg4EG0rfN/rFHJiccBRvaB2z.jpg",
+          "category_id": 22000000,
+          "children": [
+            {
+              "description": "描绘女性职业玩家团队或个人，征战电子竞技比赛的作品",
+              "fiction_count": 1,
+              "image": "",
+              "label": "电子竞技",
+              "new_image": "",
+              "category_id": 22000100,
+              "channel": 2
+            },
+            {
+              "description": "在虚拟网游世界或现实网游生活中发生的情感故事",
+              "fiction_count": 422,
+              "image": "",
+              "label": "网游情缘",
+              "new_image": "",
+              "category_id": 22000200,
+              "channel": 2
+            },
+            {
+              "description": "将游戏中的装备或技能带入现实世界或其它游戏中，或者女主进入游戏世界中的作品",
+              "fiction_count": 13,
+              "image": "",
+              "label": "游戏异界",
+              "new_image": "",
+              "category_id": 22000300,
+              "channel": 2
+            },
+            {
+              "description": "讲述女性视角下以体育运动为背景的小说",
+              "fiction_count": 209,
+              "image": "",
+              "label": "体育竞技",
+              "new_image": "",
+              "category_id": 22000400,
+              "channel": 2
+            }
+          ],
+          "channel": 2
+        },
+        "result": 0
+      },
+      {
+        "hash": "f3c5df7f3058f4f8a329c7d331e9a6c9",
+        "cate": {
+          "count": 5,
+          "description": "",
+          "fiction_count": 335,
+          "image": "",
+          "label": "同人小说",
+          "new_image": "http://image.read.duokan.com/mfsv2/download/fdsc3/p01TQMOOVmQC/M4ZhM8eyOydrGY.jpg",
+          "category_id": 23000000,
+          "children": [
+            {
+              "description": "以武侠小说的背景、剧情或人物为基础，依托原著进行再创作的作品",
+              "fiction_count": 163,
+              "image": "",
+              "label": "武侠同人",
+              "new_image": "",
+              "category_id": 23000100,
+              "channel": 2
+            },
+            {
+              "description": "以影视作品的背景、剧情或人物为基础，依托原著进行再创作的作品",
+              "fiction_count": 4,
+              "image": "",
+              "label": "影视同人",
+              "new_image": "",
+              "category_id": 23000200,
+              "channel": 2
+            },
+            {
+              "description": "以动漫作品的背景、剧情或人物为基础，依托原著进行再创作的作品",
+              "fiction_count": 17,
+              "image": "",
+              "label": "动漫同人",
+              "new_image": "",
+              "category_id": 23000300,
+              "channel": 2
+            },
+            {
+              "description": "以游戏作品的背景、剧情或人物为基础，依托原著进行再创作的作品",
+              "fiction_count": 1,
+              "image": "",
+              "label": "游戏同人",
+              "new_image": "",
+              "category_id": 23000400,
+              "channel": 2
+            },
+            {
+              "description": "以他人小说的背景、剧情或人物为基础，依托原著进行再创作的作品",
+              "fiction_count": 150,
+              "image": "",
+              "label": "小说同人",
+              "new_image": "",
+              "category_id": 23000500,
+              "channel": 2
+            }
+          ],
+          "channel": 2
+        },
+        "result": 0
+      },
+      {
+        "hash": "b8095dd88a6d77d07b1c3c355a48612d",
+        "cate": {
+          "count": 2,
+          "description": "",
+          "fiction_count": 34,
+          "image": "",
+          "label": "耽美小说",
+          "new_image": "http://image.read.duokan.com/mfsv2/download/fdsc3/p01dRzcMHvm5/8mrRf4XGz0yvZ9.jpg",
+          "category_id": 24000000,
+          "children": [
+            {
+              "description": "以近现代（民国及民国以后时期）为背景的男性之间的情爱小说",
+              "fiction_count": 1,
+              "image": "",
+              "label": "现代耽美",
+              "new_image": "",
+              "category_id": 24000200,
+              "channel": 2
+            },
+            {
+              "description": "纯女生之间的情爱故事的小说",
+              "fiction_count": 1,
+              "image": "",
+              "label": "女生百合",
+              "new_image": "",
+              "category_id": 24000300,
+              "channel": 2
+            }
+          ],
+          "channel": 2
+        },
+        "result": 0
+      }
+    ]
+  }
+}

@@ -17,8 +17,10 @@ var proxyTable = config.dev.proxyTable
 var app = express()
 var apiRoutes = express.Router()
 var headers = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+  'User-Agent':'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'Cookie':'app_id=mi_wap; build=8888; device_id=D950F1TFKU3IBFFU; user_type=2; device_hash=496f44881d27ff72819bace744e4b625; Hm_lvt_a1d10542fc664b658c3ce982b1cf4937=1485254476,1485297249,1485383348,1485493502; Hm_lpvt_a1d10542fc664b658c3ce982b1cf4937=1485501661'
   }
+
 apiRoutes.param('id', function (req, res, next, id) {
   next();
 })
@@ -34,7 +36,6 @@ apiRoutes.get('/book/:id', (req, res) => {
       res.json(JSON.parse(body))
     }
   })
-
 })
 
 apiRoutes.get('/channel/:id', (req, res) => {
@@ -43,6 +44,10 @@ apiRoutes.get('/channel/:id', (req, res) => {
     id = '418'
   }
   res.json(require(`../mock/channel/${id}.json`))
+})
+
+apiRoutes.get('/category', (req, res) => {
+  res.json(require(`../mock/category.json`))
 })
 
 app.use('/api', apiRoutes)
