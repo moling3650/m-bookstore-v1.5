@@ -1,0 +1,1833 @@
+{
+  "keyword": "channel-h5-home-free",
+  "hidden_info": "{\"title\":\"免费专区\"}",
+  "items": [
+    {
+      "hidden_info": "[[type|book-list;show_price|0;show_vertical|0;title_align|left;next_btn_h5|0;show_count|6;more_text|更多限免>>;url|;subscript|]]",
+      "ad_type": 201,
+      "ad_priority": 1,
+      "width": 0,
+      "reference_id": "273",
+      "ad_pic_url": "",
+      "ad_name": "限时免费",
+      "height": 0,
+      "data": {
+        "count": 6,
+        "total": 6,
+        "data": [
+          {
+            "hidden_info": "",
+            "ad_type": 100,
+            "ad_priority": 1,
+            "width": 0,
+            "reference_id": "18049",
+            "ad_pic_url": "",
+            "ad_name": "限制级离婚",
+            "height": 0,
+            "data": {
+              "ad": 0,
+              "word_count": 868365,
+              "owner": 0,
+              "allow_discount": 0,
+              "ad_time": 0,
+              "ad_duration": 0,
+              "score_count": 4,
+              "title": "限制级离婚",
+              "on_sale": true,
+              "comment_count": 0,
+              "has_ad": 0,
+              "click": 299032,
+              "latest_id": 205,
+              "score": 9.5,
+              "allow_free_read": 1,
+              "rights_id": 10039,
+              "channel": [
+                2
+              ],
+              "updated": 1407383281,
+              "finish": true,
+              "tags": [
+                "现言",
+                "都市言情"
+              ],
+              "price": 0,
+              "chapter_count": 206,
+              "authors": "浅水的鱼",
+              "categories": [
+                {
+                  "category_id": 100000,
+                  "label": "现代言情"
+                },
+                {
+                  "category_id": 100100,
+                  "label": "都市言情"
+                },
+                {
+                  "category_id": 18000000,
+                  "label": "现代言情"
+                },
+                {
+                  "category_id": 18000100,
+                  "label": "都市生活"
+                }
+              ],
+              "rights": "潇湘书院",
+              "level": 0,
+              "cover": "http://cover.read.duokan.com/mfsv2/download/s010/p01DIUjwVnsw/byX6NXaC6EW4Eq.jpg",
+              "summary": "老公无情？哼离开之前她定要狠狠教训！",
+              "book_cover": "http://cover.read.duokan.com/mfsv2/download/s010/p01DIUjwVnsw/byX6NXaC6EW4Eq.jpg",
+              "fiction_id": 18049,
+              "outer_id": "52bd3e8425ccbf2f060e1149",
+              "latest": "大结局"
+            },
+            "size": 0
+          },
+          {
+            "hidden_info": "",
+            "ad_type": 100,
+            "ad_priority": 2,
+            "width": 0,
+            "reference_id": "319055",
+            "ad_pic_url": "",
+            "ad_name": "我的冰山美女董事长",
+            "height": 0,
+            "data": {
+              "ad": 0,
+              "word_count": 1600941,
+              "owner": 0,
+              "allow_discount": 0,
+              "ad_time": 0,
+              "ad_duration": 0,
+              "score_count": 10,
+              "title": "我的冰山美女董事长",
+              "on_sale": true,
+              "comment_count": 0,
+              "has_ad": 0,
+              "click": 462388,
+              "latest_id": 788,
+              "score": 8.4,
+              "allow_free_read": 1,
+              "rights_id": 10080,
+              "channel": [
+                1
+              ],
+              "updated": 1485438563,
+              "finish": false,
+              "tags": [
+                "都市生活",
+                "都市"
+              ],
+              "price": 0,
+              "chapter_count": 788,
+              "authors": "梅生花",
+              "categories": [
+                {
+                  "category_id": 5000000,
+                  "label": "都市"
+                },
+                {
+                  "category_id": 5000100,
+                  "label": "都市生活"
+                }
+              ],
+              "rights": "阅文集团旗下创世中文网",
+              "level": 0,
+              "cover": "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01sq8vDWv8U/OJR4HJDtwO5fOF.jpg",
+              "summary": "【火爆新书】为了绝密任务，一代兵王阴兵阎罗隐于市井，护美女总裁。本想低调的完成任务，莺莺燕燕却扰他清...",
+              "book_cover": "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01sq8vDWv8U/OJR4HJDtwO5fOF.jpg",
+              "fiction_id": 319055,
+              "outer_id": "3384544500371103",
+              "latest": "第791章 异能者半成品"
+            },
+            "size": 0
+          },
+          {
+            "hidden_info": "",
+            "ad_type": 100,
+            "ad_priority": 3,
+            "width": 0,
+            "reference_id": "318605",
+            "ad_pic_url": "",
+            "ad_name": "黑帝专属：早安，第8号新娘",
+            "height": 0,
+            "data": {
+              "ad": 0,
+              "word_count": 1544050,
+              "owner": 0,
+              "allow_discount": 0,
+              "ad_time": 0,
+              "ad_duration": 0,
+              "score_count": 27,
+              "title": "黑帝专属：早安，第8号新娘",
+              "on_sale": true,
+              "comment_count": 0,
+              "has_ad": 0,
+              "click": 1373819,
+              "latest_id": 1487,
+              "score": 9.18,
+              "allow_free_read": 1,
+              "rights_id": 10080,
+              "channel": [
+                2
+              ],
+              "updated": 1470384560,
+              "finish": true,
+              "tags": [
+                "现代言情",
+                "豪门世家"
+              ],
+              "price": 0,
+              "chapter_count": 1488,
+              "authors": "妃子一笑",
+              "categories": [
+                {
+                  "category_id": 18000000,
+                  "label": "现代言情"
+                },
+                {
+                  "category_id": 18000700,
+                  "label": "豪门世家"
+                }
+              ],
+              "rights": "阅文集团旗下云起书院",
+              "level": 0,
+              "cover": "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01qptFtfGKL/v4OBAkvtrTQr1F.jpg",
+              "summary": "豪门一夜，她成了一本禁文小说中的恶毒女配。他是书中反派BOSS，权势滔天，残酷嗜血，却唯独对女主深情...",
+              "book_cover": "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01qptFtfGKL/v4OBAkvtrTQr1F.jpg",
+              "fiction_id": 318605,
+              "outer_id": "56d6a49450e3a42a15eff0c0",
+              "latest": "【1488】大结局"
+            },
+            "size": 0
+          },
+          {
+            "hidden_info": "",
+            "ad_type": 100,
+            "ad_priority": 4,
+            "width": 0,
+            "reference_id": "346782",
+            "ad_pic_url": "",
+            "ad_name": "绝品小仙医",
+            "height": 0,
+            "data": {
+              "ad": 0,
+              "word_count": 1572835,
+              "owner": 0,
+              "allow_discount": 0,
+              "ad_time": 0,
+              "ad_duration": 0,
+              "score_count": 32,
+              "title": "绝品小仙医",
+              "on_sale": true,
+              "comment_count": 0,
+              "has_ad": 0,
+              "click": 147442,
+              "latest_id": 775,
+              "score": 7.87,
+              "allow_free_read": 1,
+              "rights_id": 10080,
+              "channel": [
+                1
+              ],
+              "updated": 1485487836,
+              "finish": false,
+              "tags": [
+                "都市生活",
+                "都市"
+              ],
+              "price": 0,
+              "chapter_count": 776,
+              "authors": "白色企鹅",
+              "categories": [
+                {
+                  "category_id": 5000000,
+                  "label": "都市"
+                },
+                {
+                  "category_id": 5000100,
+                  "label": "都市生活"
+                }
+              ],
+              "rights": "阅文集团旗下创世中文网",
+              "level": 0,
+              "cover": "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01ukJ14OsIW/cxB2GV9ZewCGY7.jpg",
+              "summary": "神秘高手回村，会医术，会武术，利用那超乎常人的手段带领村民走向致富道路。...",
+              "book_cover": "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01ukJ14OsIW/cxB2GV9ZewCGY7.jpg",
+              "fiction_id": 346782,
+              "outer_id": "4957379304066603",
+              "latest": "第776章 隐疾"
+            },
+            "size": 0
+          },
+          {
+            "hidden_info": "",
+            "ad_type": 100,
+            "ad_priority": 5,
+            "width": 0,
+            "reference_id": "351828",
+            "ad_pic_url": "",
+            "ad_name": "倾城狂妃驯冷皇",
+            "height": 0,
+            "data": {
+              "ad": 0,
+              "word_count": 1140507,
+              "owner": 0,
+              "allow_discount": 0,
+              "ad_time": 0,
+              "ad_duration": 0,
+              "score_count": 1,
+              "title": "倾城狂妃驯冷皇",
+              "on_sale": true,
+              "comment_count": 0,
+              "has_ad": 0,
+              "latest_id": 475,
+              "score": 6,
+              "allow_free_read": 1,
+              "rights_id": 10020,
+              "channel": [
+                2
+              ],
+              "updated": 1477623448,
+              "finish": true,
+              "tags": [
+                "男女双强",
+                "女主腹黑",
+                "男主独宠",
+                "古代言情",
+                "奇幻架空",
+                "女尊王朝",
+                "幻想奇缘"
+              ],
+              "price": 0,
+              "chapter_count": 476,
+              "authors": "浮香粉末",
+              "categories": [
+                {
+                  "category_id": 150000,
+                  "label": "幻想奇缘"
+                },
+                {
+                  "category_id": 150100,
+                  "label": "奇幻架空"
+                },
+                {
+                  "category_id": 17000000,
+                  "label": "古代言情"
+                },
+                {
+                  "category_id": 17000100,
+                  "label": "女尊王朝"
+                }
+              ],
+              "rights": "小说阅读网",
+              "level": 0,
+              "cover": "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01Teshh6etO/HOXwUWutjvn2DE.jpg",
+              "summary": "《冷面枭王毒宠贪财妃》首发：杀父退婚扔进花楼，机关算尽步步紧逼，他只为替心爱之人报仇；一朝霸气重生废...",
+              "book_cover": "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01Teshh6etO/HOXwUWutjvn2DE.jpg",
+              "fiction_id": 351828,
+              "outer_id": "5812b88e50e3a424117a7ae5",
+              "latest": "第476大结局下"
+            },
+            "size": 0
+          },
+          {
+            "hidden_info": "",
+            "ad_type": 100,
+            "ad_priority": 6,
+            "width": 0,
+            "reference_id": "351963",
+            "ad_pic_url": "",
+            "ad_name": "狂武神帝",
+            "height": 0,
+            "data": {
+              "ad": 0,
+              "word_count": 1250479,
+              "owner": 0,
+              "allow_discount": 0,
+              "ad_time": 0,
+              "ad_duration": 0,
+              "score_count": 0,
+              "title": "狂武神帝",
+              "on_sale": true,
+              "comment_count": 0,
+              "has_ad": 0,
+              "latest_id": 479,
+              "score": 0,
+              "allow_free_read": 1,
+              "rights_id": 10080,
+              "channel": [
+                1
+              ],
+              "updated": 1485485691,
+              "finish": false,
+              "tags": [
+                "玄幻",
+                "东方玄幻"
+              ],
+              "price": 0,
+              "chapter_count": 479,
+              "authors": "会飞的小迁",
+              "categories": [
+                {
+                  "category_id": 1000000,
+                  "label": "玄幻"
+                },
+                {
+                  "category_id": 1000100,
+                  "label": "东方玄幻"
+                }
+              ],
+              "rights": "阅文集团旗下创世中文网",
+              "level": 0,
+              "cover": "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01tfwCcIWIE/bCNn9cTNYZ7Bu8.jpg",
+              "summary": "岁月洞，为人间五大禁地之一，方圆百丈万物枯寂，入者，十死无生！\r\n“九千年，我竟沉睡了九千年……”\r...",
+              "book_cover": "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01tfwCcIWIE/bCNn9cTNYZ7Bu8.jpg",
+              "fiction_id": 351963,
+              "outer_id": "5018528004241803",
+              "latest": "第四百七十六章：古枫的心！"
+            },
+            "size": 0
+          }
+        ]
+      },
+      "size": 0
+    },
+    {
+      "ad_pic_url": "",
+      "hidden_info": "[[type|book-list;show_price|0;show_vertical|0;show_count|6;more_text|;url|;subscript|]]",
+      "ad_type": 101,
+      "ad_priority": 2,
+      "width": 0,
+      "reference_id": "11322",
+      "ad_copy": "小说狂欢季，免费不限时！",
+      "ad_name": "免费排行",
+      "height": 0,
+      "data": {
+        "count": 6,
+        "total": 69,
+        "data": [
+          {
+            "ad": 0,
+            "word_count": 1032349,
+            "owner": 2,
+            "allow_discount": 0,
+            "ad_time": 0,
+            "ad_duration": 0,
+            "score_count": 0,
+            "title": "医品邪妃",
+            "on_sale": true,
+            "comment_count": 0,
+            "has_ad": 1,
+            "latest_id": 455,
+            "score": 0,
+            "allow_free_read": 1,
+            "rights_id": 10068,
+            "channel": [
+              2
+            ],
+            "updated": 1474157959,
+            "finish": true,
+            "tags": [
+              "医品邪妃",
+              "现代言情",
+              "现代重生",
+              "异术超能",
+              "穿越架空"
+            ],
+            "price": 3,
+            "chapter_count": 456,
+            "authors": "瑾曦",
+            "categories": [
+              {
+                "category_id": 130000,
+                "label": "穿越架空"
+              },
+              {
+                "category_id": 130300,
+                "label": "现代重生"
+              },
+              {
+                "category_id": 18000000,
+                "label": "现代言情"
+              },
+              {
+                "category_id": 18000600,
+                "label": "异术超能"
+              }
+            ],
+            "rights": "塔读文学网",
+            "level": 0,
+            "cover": "http://cover.read.duokan.com/mfsv2/download/fdsc3/p013ltauekoX/nNAu7aStcsR1oT.jpg",
+            "summary": "她是左相嫡女苏沫鸢，草包花痴；她是一代魔医苏玲珑，医毒双绝。一朝重生，花痴小姐脱胎换骨，成了混世魔医...",
+            "fiction_id": 348614,
+            "outer_id": "57d0acef50e3a4508fc54331",
+            "latest": "455 番外终"
+          },
+          {
+            "ad": 0,
+            "word_count": 2019275,
+            "owner": 2,
+            "allow_discount": 0,
+            "ad_time": 0,
+            "ad_duration": 0,
+            "score_count": 0,
+            "title": "鬼掌灯",
+            "on_sale": true,
+            "comment_count": 0,
+            "has_ad": 1,
+            "latest_id": 645,
+            "score": 0,
+            "allow_free_read": 1,
+            "rights_id": 10068,
+            "channel": [
+              1
+            ],
+            "updated": 1473726706,
+            "finish": true,
+            "tags": [
+              "鬼掌灯",
+              "灵异奇谈",
+              "灵异悬疑",
+              "灵异神怪",
+              "灵异"
+            ],
+            "price": 3,
+            "chapter_count": 646,
+            "authors": "我叫豆豆",
+            "categories": [
+              {
+                "category_id": 50000,
+                "label": "灵异悬疑"
+              },
+              {
+                "category_id": 50300,
+                "label": "灵异神怪"
+              },
+              {
+                "category_id": 8000000,
+                "label": "灵异"
+              },
+              {
+                "category_id": 8000400,
+                "label": "灵异奇谈"
+              }
+            ],
+            "rights": "塔读文学网",
+            "level": 0,
+            "cover": "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01GB9Y3afvt/CqmRH6Pyy14ngY.jpg",
+            "summary": "附近女生宿舍闹鬼，我和同事监办的时候，不小心撞破一件关系多年前的诡异案件。\n储物室不停的砸门声让人胆...",
+            "fiction_id": 348051,
+            "outer_id": "57d0ac8e50e3a4508fc542dc",
+            "latest": "第645章   任务完成（大结局）"
+          },
+          {
+            "ad": 0,
+            "word_count": 651045,
+            "owner": 2,
+            "allow_discount": 0,
+            "ad_time": 0,
+            "ad_duration": 0,
+            "score_count": 0,
+            "title": "霸上无良首席",
+            "on_sale": true,
+            "comment_count": 0,
+            "has_ad": 1,
+            "latest_id": 316,
+            "score": 0,
+            "allow_free_read": 1,
+            "rights_id": 10068,
+            "channel": [
+              2
+            ],
+            "updated": 1473552917,
+            "finish": true,
+            "tags": [
+              "霸上无良首席",
+              "总裁世家",
+              "总裁豪门",
+              "现代言情",
+              "豪门世家"
+            ],
+            "price": 3,
+            "chapter_count": 317,
+            "authors": "童童",
+            "categories": [
+              {
+                "category_id": 120000,
+                "label": "总裁世家"
+              },
+              {
+                "category_id": 120100,
+                "label": "总裁豪门"
+              },
+              {
+                "category_id": 18000000,
+                "label": "现代言情"
+              },
+              {
+                "category_id": 18000700,
+                "label": "豪门世家"
+              }
+            ],
+            "rights": "塔读文学网",
+            "level": 0,
+            "cover": "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01ZNCMIEuIH/0B8Q7xMLPTG1Ig.jpg",
+            "summary": "想她叶心心慧眼如炬，十岁那年就一把鼻涕一把泪的将二十岁的他订为未来老公。\n十年后，当某大叔退伍归来，...",
+            "fiction_id": 347993,
+            "outer_id": "57d0ad1c50e3a4508fc54374",
+            "latest": "第三百一十六章  大结局"
+          },
+          {
+            "ad": 0,
+            "word_count": 4667585,
+            "owner": 2,
+            "allow_discount": 0,
+            "ad_time": 0,
+            "ad_duration": 0,
+            "score_count": 5,
+            "title": "超级医道高手",
+            "on_sale": true,
+            "comment_count": 3,
+            "has_ad": 1,
+            "click": 2217651,
+            "latest_id": 2237,
+            "score": 7.2,
+            "allow_free_read": 1,
+            "rights_id": 10068,
+            "channel": [
+              1
+            ],
+            "updated": 1480724892,
+            "finish": true,
+            "tags": [
+              "都市情缘",
+              "都市"
+            ],
+            "price": 3,
+            "chapter_count": 2237,
+            "authors": "星际银河",
+            "categories": [
+              {
+                "category_id": 10000,
+                "label": "玄幻奇幻"
+              },
+              {
+                "category_id": 10500,
+                "label": "西方奇幻"
+              },
+              {
+                "category_id": 2000000,
+                "label": "奇幻"
+              },
+              {
+                "category_id": 2000100,
+                "label": "西方奇幻"
+              }
+            ],
+            "rights": "塔读文学网",
+            "level": 0,
+            "cover": "http://cover.read.duokan.com/mfsv2/download/s010/p01IL1mqeOpf/fHknvyL0MoSZtZ.jpg",
+            "summary": "平凡的青年林峰意外获得神奇探查术能力，不仅各种古董玩物逃不过他的探查，就算人类身体的大小毛病也无法逃...",
+            "fiction_id": 41601,
+            "outer_id": "53673e800ea49777c1bc630a",
+            "latest": "第二二三六章 后记"
+          },
+          {
+            "ad": 0,
+            "word_count": 1592931,
+            "owner": 2,
+            "allow_discount": false,
+            "ad_time": 0,
+            "ad_duration": 0,
+            "score_count": 0,
+            "title": "凰临天下：祸国毒后",
+            "on_sale": true,
+            "comment_count": 0,
+            "has_ad": 1,
+            "latest_id": 717,
+            "score": 0,
+            "allow_free_read": 1,
+            "rights_id": 10068,
+            "channel": [
+              2
+            ],
+            "updated": 1473985732,
+            "finish": true,
+            "tags": [
+              "凰临天下：祸国毒后",
+              "历史穿越",
+              "古代情缘",
+              "古代言情",
+              "穿越架空"
+            ],
+            "price": 3,
+            "chapter_count": 718,
+            "authors": "夏冬儿",
+            "categories": [
+              {
+                "category_id": 130000,
+                "label": "穿越架空"
+              },
+              {
+                "category_id": 130200,
+                "label": "历史穿越"
+              },
+              {
+                "category_id": 17000000,
+                "label": "古代言情"
+              },
+              {
+                "category_id": 17000300,
+                "label": "古代情缘"
+              }
+            ],
+            "rights": "塔读文学网",
+            "level": 0,
+            "cover": "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01yBaxey5Bw/mKn6BefknUtSve.jpg",
+            "summary": "她本是金枝玉叶，六宫之主，金屋藏之，她助他得到天下，却被渣男渣女联合虐死，\r\n这一世，她要掀翻宫堂，朝...",
+            "fiction_id": 348588,
+            "outer_id": "57d0acb250e3a4508fc542f8",
+            "latest": "第七百一十八章  跟众美女成亲"
+          },
+          {
+            "ad": 0,
+            "word_count": 3183460,
+            "owner": 2,
+            "allow_discount": 0,
+            "ad_time": 0,
+            "ad_duration": 0,
+            "score_count": 0,
+            "title": "美女的贴身狂兵",
+            "on_sale": true,
+            "comment_count": 0,
+            "has_ad": 1,
+            "click": 136065,
+            "latest_id": 959,
+            "score": 0,
+            "allow_free_read": 1,
+            "rights_id": 10068,
+            "channel": [
+              1
+            ],
+            "updated": 1479262259,
+            "finish": false,
+            "tags": [
+              "美女的贴身狂兵",
+              "都市情缘",
+              "爱情婚姻",
+              "热血都市",
+              "都市"
+            ],
+            "price": 3,
+            "chapter_count": 960,
+            "authors": "千军万马",
+            "categories": [
+              {
+                "category_id": 20000,
+                "label": "热血都市"
+              },
+              {
+                "category_id": 20100,
+                "label": "都市情缘"
+              },
+              {
+                "category_id": 5000000,
+                "label": "都市"
+              },
+              {
+                "category_id": 5000200,
+                "label": "爱情婚姻"
+              }
+            ],
+            "rights": "塔读文学网",
+            "level": 0,
+            "cover": "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01hZURyEXnt/BmKl3FWhX1DgZ9.jpg",
+            "summary": "谁能想到光鲜而又平凡的都市，会有着想象不到的一群人的存在。他们看起来与平常人无疑，却有着平常人无法想...",
+            "fiction_id": 345689,
+            "outer_id": "57a3d96150e3a41b0f26d20c",
+            "latest": "第九百五十九章 归隐，守望星河"
+          }
+        ]
+      },
+      "size": 0
+    },
+    {
+      "ad_pic_url": "",
+      "hidden_info": "[[type|book-list;show_vertical|1;show_count|6;more_text|;url|;subscript|]]",
+      "ad_type": 101,
+      "ad_priority": 3,
+      "width": 0,
+      "reference_id": "11320",
+      "ad_copy": "免费请你读，省钱啦！",
+      "ad_name": "全站最热",
+      "height": 0,
+      "data": {
+        "count": 6,
+        "total": 65,
+        "data": [
+          {
+            "ad": 0,
+            "word_count": 1291144,
+            "owner": 2,
+            "allow_discount": 0,
+            "ad_time": 0,
+            "ad_duration": 0,
+            "score_count": 0,
+            "title": "妃礼勿视：王爷请负责",
+            "on_sale": true,
+            "comment_count": 0,
+            "has_ad": 1,
+            "latest_id": 634,
+            "score": 0,
+            "allow_free_read": 1,
+            "rights_id": 10068,
+            "channel": [
+              2
+            ],
+            "updated": 1473812571,
+            "finish": true,
+            "tags": [
+              "妃礼勿视：王爷请负责",
+              "历史穿越",
+              "古代情缘",
+              "古代言情",
+              "穿越架空"
+            ],
+            "price": 3,
+            "chapter_count": 635,
+            "authors": "斜阳寒烟",
+            "categories": [
+              {
+                "category_id": 130000,
+                "label": "穿越架空"
+              },
+              {
+                "category_id": 130200,
+                "label": "历史穿越"
+              },
+              {
+                "category_id": 17000000,
+                "label": "古代言情"
+              },
+              {
+                "category_id": 17000300,
+                "label": "古代情缘"
+              }
+            ],
+            "rights": "塔读文学网",
+            "level": 0,
+            "cover": "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01Wvd9nirXP/fgtfzSFQxyPibX.jpg",
+            "summary": "会读心、会看人、谁都休想背地里诋毁分毫。\n昔日的惨痛经历，让她锋芒毕露，精明干练，屡历险境，却能淡定...",
+            "fiction_id": 348362,
+            "outer_id": "57d0acd450e3a4508fc5431c",
+            "latest": "第六百三十五章 我回来了！"
+          },
+          {
+            "ad": 0,
+            "word_count": 1390296,
+            "owner": 2,
+            "allow_discount": 0,
+            "ad_time": 0,
+            "ad_duration": 0,
+            "score_count": 0,
+            "title": "苍穹之怒",
+            "on_sale": true,
+            "comment_count": 0,
+            "has_ad": 1,
+            "latest_id": 384,
+            "score": 0,
+            "allow_free_read": 1,
+            "rights_id": 10068,
+            "channel": [
+              1
+            ],
+            "updated": 1473899859,
+            "finish": true,
+            "tags": [
+              "苍穹之怒",
+              "玄幻奇幻",
+              "玄幻",
+              "东方玄幻"
+            ],
+            "price": 3,
+            "chapter_count": 385,
+            "authors": "道清",
+            "categories": [
+              {
+                "category_id": 10000,
+                "label": "玄幻奇幻"
+              },
+              {
+                "category_id": 10100,
+                "label": "东方玄幻"
+              },
+              {
+                "category_id": 1000000,
+                "label": "玄幻"
+              },
+              {
+                "category_id": 1000100,
+                "label": "东方玄幻"
+              }
+            ],
+            "rights": "塔读文学网",
+            "level": 0,
+            "cover": "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01HNivpG8rd/cKZ2o0hGf0C202.jpg",
+            "summary": "神，已无力回天，我愿用臂膀踏着累累白骨撑起诸天神杵！天待我不公，我必逆天而行，看少年如何脚踩幽冥巨龙...",
+            "fiction_id": 348556,
+            "outer_id": "57d0acc250e3a4508fc5430a",
+            "latest": "第五章 生命的极点（下）"
+          },
+          {
+            "ad": 0,
+            "word_count": 605430,
+            "owner": 2,
+            "allow_discount": 0,
+            "ad_time": 0,
+            "ad_duration": 0,
+            "score_count": 0,
+            "title": "失忆老公无敌爱",
+            "on_sale": true,
+            "comment_count": 0,
+            "has_ad": 1,
+            "latest_id": 255,
+            "score": 0,
+            "allow_free_read": 1,
+            "rights_id": 10068,
+            "channel": [
+              2
+            ],
+            "updated": 1473984900,
+            "finish": true,
+            "tags": [
+              "失忆老公无敌爱",
+              "总裁世家",
+              "总裁豪门",
+              "现代言情",
+              "豪门世家"
+            ],
+            "price": 3,
+            "chapter_count": 256,
+            "authors": "和光同尘",
+            "categories": [
+              {
+                "category_id": 120000,
+                "label": "总裁世家"
+              },
+              {
+                "category_id": 120100,
+                "label": "总裁豪门"
+              },
+              {
+                "category_id": 18000000,
+                "label": "现代言情"
+              },
+              {
+                "category_id": 18000700,
+                "label": "豪门世家"
+              }
+            ],
+            "rights": "塔读文学网",
+            "level": 0,
+            "cover": "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01jIDujHHiO/uyHDVcu0ggNG9z.jpg",
+            "summary": "他险些被未婚妻霸王硬上弓，她误打误撞相救，失忆的他却从此死缠硬磨赖上她。一路惊心动魄，她原以为拖了个...",
+            "fiction_id": 348574,
+            "outer_id": "57d0ad2050e3a4508fc5437a",
+            "latest": "255 我只要有你（大结局）"
+          },
+          {
+            "ad": 0,
+            "word_count": 2726430,
+            "owner": 2,
+            "allow_discount": 0,
+            "ad_time": 0,
+            "ad_duration": 0,
+            "score_count": 0,
+            "title": "花都邪王",
+            "on_sale": true,
+            "comment_count": 0,
+            "has_ad": 1,
+            "click": 142747,
+            "latest_id": 872,
+            "score": 0,
+            "allow_free_read": 1,
+            "rights_id": 10068,
+            "channel": [
+              1
+            ],
+            "updated": 1471143876,
+            "finish": true,
+            "tags": [
+              "花都邪王",
+              "都市情缘",
+              "爱情婚姻",
+              "热血都市",
+              "都市"
+            ],
+            "price": 3,
+            "chapter_count": 873,
+            "authors": "樵苏",
+            "categories": [
+              {
+                "category_id": 20000,
+                "label": "热血都市"
+              },
+              {
+                "category_id": 20100,
+                "label": "都市情缘"
+              },
+              {
+                "category_id": 5000000,
+                "label": "都市"
+              },
+              {
+                "category_id": 5000200,
+                "label": "爱情婚姻"
+              }
+            ],
+            "rights": "塔读文学网",
+            "level": 0,
+            "cover": "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01zTjTqDjw8/y3SybJrBfFrDPA.jpg",
+            "summary": "古董级好学生萧夜，莫名其妙当了垫背，坑爹地又被追杀又雷劈，不过好歹还是给了点福利，别的本事没有，咱会...",
+            "fiction_id": 345693,
+            "outer_id": "57ae658b50e3a424cb31f6e0",
+            "latest": "第872章 混沌海外（大结局）"
+          },
+          {
+            "ad": 0,
+            "word_count": 973261,
+            "owner": 2,
+            "allow_discount": 0,
+            "ad_time": 0,
+            "ad_duration": 0,
+            "score_count": 0,
+            "title": "锦色盈门",
+            "on_sale": true,
+            "comment_count": 0,
+            "has_ad": 1,
+            "latest_id": 466,
+            "score": 0,
+            "allow_free_read": 1,
+            "rights_id": 10068,
+            "channel": [
+              2
+            ],
+            "updated": 1473812743,
+            "finish": true,
+            "tags": [
+              "锦色盈门",
+              "历史穿越",
+              "古代情缘",
+              "古代言情",
+              "穿越架空"
+            ],
+            "price": 3,
+            "chapter_count": 467,
+            "authors": "小舍予香",
+            "categories": [
+              {
+                "category_id": 130000,
+                "label": "穿越架空"
+              },
+              {
+                "category_id": 130200,
+                "label": "历史穿越"
+              },
+              {
+                "category_id": 17000000,
+                "label": "古代言情"
+              },
+              {
+                "category_id": 17000300,
+                "label": "古代情缘"
+              }
+            ],
+            "rights": "塔读文学网",
+            "level": 0,
+            "cover": "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01OlTRzFblk/Jayk7PmhWMZggp.jpg",
+            "summary": "沐恩侯府的二小姐叶雪兰最是令人不耻，本是侯门千金，却长在县城祖宅，粗野不识大体，养成一双天足。上不知...",
+            "fiction_id": 348368,
+            "outer_id": "57d0acf750e3a4508fc5433d",
+            "latest": "番外"
+          },
+          {
+            "ad": 0,
+            "word_count": 1257039,
+            "owner": 2,
+            "allow_discount": 0,
+            "ad_time": 0,
+            "ad_duration": 0,
+            "score_count": 0,
+            "title": "阴阳渡客",
+            "on_sale": true,
+            "comment_count": 0,
+            "has_ad": 1,
+            "latest_id": 414,
+            "score": 0,
+            "allow_free_read": 1,
+            "rights_id": 10068,
+            "channel": [
+              1
+            ],
+            "updated": 1473812268,
+            "finish": true,
+            "tags": [
+              "阴阳渡客",
+              "灵异奇谈",
+              "灵异悬疑",
+              "灵异神怪",
+              "灵异"
+            ],
+            "price": 3,
+            "chapter_count": 415,
+            "authors": "我吃蕃薯",
+            "categories": [
+              {
+                "category_id": 50000,
+                "label": "灵异悬疑"
+              },
+              {
+                "category_id": 50300,
+                "label": "灵异神怪"
+              },
+              {
+                "category_id": 8000000,
+                "label": "灵异"
+              },
+              {
+                "category_id": 8000400,
+                "label": "灵异奇谈"
+              }
+            ],
+            "rights": "塔读文学网",
+            "level": 0,
+            "cover": "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01kneDj0M0T/299waiE2QamlcN.jpg",
+            "summary": "相传，在世间有一种车，叫冥车，他们穿梭于阴阳两界，拉渡灵魂。\n从事这种工作的人，叫做阴阳渡客。\n其实...",
+            "fiction_id": 348356,
+            "outer_id": "57d0acd650e3a4508fc5431e",
+            "latest": "第四一五章 一渡黄泉生死两茫茫（终章）"
+          }
+        ]
+      },
+      "size": 0
+    },
+    {
+      "ad_pic_url": "",
+      "hidden_info": "[[type|book-list;show_vertical|0;show_count|6;more_text|;url|;subscript|]]",
+      "ad_type": 101,
+      "ad_priority": 4,
+      "width": 0,
+      "reference_id": "11321",
+      "ad_copy": "老司机发车，免费上~",
+      "ad_name": "名作免费",
+      "height": 0,
+      "data": {
+        "count": 6,
+        "total": 85,
+        "data": [
+          {
+            "ad": 0,
+            "word_count": 642105,
+            "owner": 2,
+            "allow_discount": 0,
+            "ad_time": 0,
+            "ad_duration": 0,
+            "score_count": 0,
+            "title": "诱爱成婚",
+            "on_sale": true,
+            "comment_count": 0,
+            "has_ad": 1,
+            "latest_id": 312,
+            "score": 0,
+            "allow_free_read": 1,
+            "rights_id": 10068,
+            "channel": [
+              2
+            ],
+            "updated": 1473898432,
+            "finish": true,
+            "tags": [
+              "诱爱成婚",
+              "现代言情",
+              "婚恋情缘",
+              "婚姻家庭"
+            ],
+            "price": 3,
+            "chapter_count": 313,
+            "authors": "卿妤",
+            "categories": [
+              {
+                "category_id": 100000,
+                "label": "现代言情"
+              },
+              {
+                "category_id": 100200,
+                "label": "婚姻家庭"
+              },
+              {
+                "category_id": 18000000,
+                "label": "现代言情"
+              },
+              {
+                "category_id": 18000200,
+                "label": "婚恋情缘"
+              }
+            ],
+            "rights": "塔读文学网",
+            "level": 0,
+            "cover": "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01dqkXI4spM/c7n3bZ0OgfmTjZ.jpg",
+            "summary": "她父亲的公司因亲人背叛而面临破产，而他却断了她所有的后路。他双眉轻佻：“和我结婚，我帮你把所有的问题...",
+            "fiction_id": 348523,
+            "outer_id": "57d0ad1d50e3a4508fc54375",
+            "latest": "第三百一十二章 重归于好（终结）"
+          },
+          {
+            "ad": 0,
+            "word_count": 1605045,
+            "owner": 2,
+            "allow_discount": 0,
+            "ad_time": 0,
+            "ad_duration": 0,
+            "score_count": 0,
+            "title": "热血兵王在都市",
+            "on_sale": true,
+            "comment_count": 0,
+            "has_ad": 1,
+            "latest_id": 511,
+            "score": 0,
+            "allow_free_read": 1,
+            "rights_id": 10068,
+            "channel": [
+              1
+            ],
+            "updated": 1474244086,
+            "finish": true,
+            "tags": [
+              "热血兵王在都市",
+              "都市情缘",
+              "爱情婚姻",
+              "热血都市",
+              "都市"
+            ],
+            "price": 3,
+            "chapter_count": 512,
+            "authors": "鬼一刀",
+            "categories": [
+              {
+                "category_id": 20000,
+                "label": "热血都市"
+              },
+              {
+                "category_id": 20100,
+                "label": "都市情缘"
+              },
+              {
+                "category_id": 5000000,
+                "label": "都市"
+              },
+              {
+                "category_id": 5000200,
+                "label": "爱情婚姻"
+              }
+            ],
+            "rights": "塔读文学网",
+            "level": 0,
+            "cover": "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01o91kOlxWe/a59tCwvdF9csfU.jpg",
+            "summary": "兵王回国，大战地下势力。搅起腥风血雨，为保未婚妻，血战顶尖佣兵团。冰冷总裁，呆萌警花，窈窕教师，巨汝...",
+            "fiction_id": 348792,
+            "outer_id": "57d0acaf50e3a4508fc542f4",
+            "latest": "第五百一十一章 终境：神！"
+          },
+          {
+            "ad": 0,
+            "word_count": 753966,
+            "owner": 2,
+            "allow_discount": 0,
+            "ad_time": 0,
+            "ad_duration": 0,
+            "score_count": 0,
+            "title": "嫡女医妃：王爷诱宠小萌妻",
+            "on_sale": true,
+            "comment_count": 0,
+            "has_ad": 1,
+            "latest_id": 352,
+            "score": 0,
+            "allow_free_read": 1,
+            "rights_id": 10068,
+            "channel": [
+              2
+            ],
+            "updated": 1474244401,
+            "finish": true,
+            "tags": [
+              "嫡女医妃：王爷诱宠小萌妻",
+              "现代言情",
+              "现代重生",
+              "异术超能",
+              "穿越架空"
+            ],
+            "price": 3,
+            "chapter_count": 353,
+            "authors": "四月青禾 ",
+            "categories": [
+              {
+                "category_id": 130000,
+                "label": "穿越架空"
+              },
+              {
+                "category_id": 130300,
+                "label": "现代重生"
+              },
+              {
+                "category_id": 18000000,
+                "label": "现代言情"
+              },
+              {
+                "category_id": 18000600,
+                "label": "异术超能"
+              }
+            ],
+            "rights": "塔读文学网",
+            "level": 0,
+            "cover": "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01sVeWOlGCY/qgGvxWGVhfIAFY.jpg",
+            "summary": "她是二十一世纪黑道杀手，精通医毒，武艺精湛，可不料被信任的人所害，一朝穿越到六岁庶女身上，庶女也就罢...",
+            "fiction_id": 348797,
+            "outer_id": "57d0ad1450e3a4508fc54366",
+            "latest": "第三百五十三章  一吻，地老天荒"
+          },
+          {
+            "ad": 0,
+            "word_count": 2065660,
+            "owner": 2,
+            "allow_discount": 0,
+            "ad_time": 0,
+            "ad_duration": 0,
+            "score_count": 0,
+            "title": "绝世剑魔",
+            "on_sale": true,
+            "comment_count": 0,
+            "has_ad": 1,
+            "latest_id": 541,
+            "score": 0,
+            "allow_free_read": 1,
+            "rights_id": 10068,
+            "channel": [
+              1
+            ],
+            "updated": 1473898602,
+            "finish": true,
+            "tags": [
+              "绝世剑魔",
+              "玄幻奇幻",
+              "玄幻",
+              "东方玄幻"
+            ],
+            "price": 3,
+            "chapter_count": 542,
+            "authors": "红伞",
+            "categories": [
+              {
+                "category_id": 10000,
+                "label": "玄幻奇幻"
+              },
+              {
+                "category_id": 10100,
+                "label": "东方玄幻"
+              },
+              {
+                "category_id": 1000000,
+                "label": "玄幻"
+              },
+              {
+                "category_id": 1000100,
+                "label": "东方玄幻"
+              }
+            ],
+            "rights": "塔读文学网",
+            "level": 0,
+            "cover": "http://cover.read.duokan.com/mfsv2/download/fdsc3/p012YPSSET5y/oaXvRbM8F3Aur4.jpg",
+            "summary": "江家盲眼庶子，偶尔得获古剑天泣剑灵相助，不仅重获光明，更得一双拥有可以洞穿九天十地的异曈。从此炼神体...",
+            "fiction_id": 348526,
+            "outer_id": "57d0ac8a50e3a4508fc542d8",
+            "latest": "第五百四十一章 终焉（全书完）"
+          },
+          {
+            "ad": 0,
+            "word_count": 2068969,
+            "owner": 2,
+            "allow_discount": 0,
+            "ad_time": 0,
+            "ad_duration": 0,
+            "score_count": 0,
+            "title": "假戏婚宠",
+            "on_sale": true,
+            "comment_count": 0,
+            "has_ad": 1,
+            "latest_id": 974,
+            "score": 0,
+            "allow_free_read": 1,
+            "rights_id": 10068,
+            "channel": [
+              2
+            ],
+            "updated": 1473389409,
+            "finish": true,
+            "tags": [
+              "假戏婚宠",
+              "现代言情",
+              "婚恋情缘",
+              "婚姻家庭"
+            ],
+            "price": 3,
+            "chapter_count": 975,
+            "authors": "王小六",
+            "categories": [
+              {
+                "category_id": 100000,
+                "label": "现代言情"
+              },
+              {
+                "category_id": 100200,
+                "label": "婚姻家庭"
+              },
+              {
+                "category_id": 18000000,
+                "label": "现代言情"
+              },
+              {
+                "category_id": 18000200,
+                "label": "婚恋情缘"
+              }
+            ],
+            "rights": "塔读文学网",
+            "level": 0,
+            "cover": "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01lpTHeX6jr/KXv6lrOUwE9MVi.jpg",
+            "summary": "她的丈夫，和最好的闺蜜，竟然……联起手来，欺骗她的感情，欺骗她的财产，害的她家破人亡！\n 所有的宠爱...",
+            "fiction_id": 347385,
+            "outer_id": "57d0ac8850e3a4508fc542d5",
+            "latest": "第九百七十五章：完美结局"
+          },
+          {
+            "ad": 0,
+            "word_count": 1268002,
+            "owner": 2,
+            "allow_discount": 0,
+            "ad_time": 0,
+            "ad_duration": 0,
+            "score_count": 0,
+            "title": "极品相师",
+            "on_sale": true,
+            "comment_count": 0,
+            "has_ad": 1,
+            "latest_id": 385,
+            "score": 0,
+            "allow_free_read": 1,
+            "rights_id": 10068,
+            "channel": [
+              1
+            ],
+            "updated": 1474244041,
+            "finish": true,
+            "tags": [
+              "极品相师",
+              "都市情缘",
+              "爱情婚姻",
+              "热血都市",
+              "都市"
+            ],
+            "price": 3,
+            "chapter_count": 386,
+            "authors": "九阳真人",
+            "categories": [
+              {
+                "category_id": 20000,
+                "label": "热血都市"
+              },
+              {
+                "category_id": 20100,
+                "label": "都市情缘"
+              },
+              {
+                "category_id": 5000000,
+                "label": "都市"
+              },
+              {
+                "category_id": 5000200,
+                "label": "爱情婚姻"
+              }
+            ],
+            "rights": "塔读文学网",
+            "level": 0,
+            "cover": "http://cover.read.duokan.com/mfsv2/download/fdsc3/p015O6JiSIIa/XX97ylJY9RaZnl.jpg",
+            "summary": "一命二运三风水，环环相扣，冥冥牵引，风水改命运，命理测人生，六爻算尽天机，祈禳之术增寿命，四柱八字五...",
+            "fiction_id": 348791,
+            "outer_id": "57d0accd50e3a4508fc54314",
+            "latest": "第385章 大结局"
+          }
+        ]
+      },
+      "size": 0
+    },
+    {
+      "ad_pic_url": "",
+      "hidden_info": "[[type|book-list;show_price|0;show_vertical|1;title_align|left;show_count|6;more_text|;url|#page=topic&type=fiction&id=11287;subscript|;next_btn_h5|0;card_count_h5|; title_icon|;url_2|]]",
+      "ad_type": 101,
+      "ad_priority": 5,
+      "width": 0,
+      "reference_id": "11287",
+      "ad_copy": "捡漏好书，不花一分钱！",
+      "ad_name": "新书上线",
+      "height": 0,
+      "data": {
+        "count": 6,
+        "total": 116,
+        "data": [
+          {
+            "ad": 0,
+            "word_count": 199181,
+            "owner": 2,
+            "allow_discount": 0,
+            "ad_time": 0,
+            "ad_duration": 0,
+            "score_count": 0,
+            "title": "绝色天医弃妃",
+            "on_sale": true,
+            "comment_count": 0,
+            "has_ad": 1,
+            "latest_id": 96,
+            "score": 0,
+            "allow_free_read": 1,
+            "rights_id": 10068,
+            "channel": [
+              2
+            ],
+            "updated": 1473985162,
+            "finish": true,
+            "tags": [
+              "绝色天医弃妃",
+              "现代言情",
+              "现代重生",
+              "异术超能",
+              "穿越架空"
+            ],
+            "price": 3,
+            "chapter_count": 97,
+            "authors": "蓝绮儿",
+            "categories": [
+              {
+                "category_id": 130000,
+                "label": "穿越架空"
+              },
+              {
+                "category_id": 130300,
+                "label": "现代重生"
+              },
+              {
+                "category_id": 18000000,
+                "label": "现代言情"
+              },
+              {
+                "category_id": 18000600,
+                "label": "异术超能"
+              }
+            ],
+            "rights": "塔读文学网",
+            "level": 0,
+            "cover": "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01ZpGsSARaf/I9NF5CpiJXD7QA.jpg",
+            "summary": "她死而复生，竟成了被扫地出门的弃妃？且肚子里还装着个在娘胎就懂得对她卖萌耍无赖的小萌货？而她，却不知...",
+            "fiction_id": 348580,
+            "outer_id": "57d0ad5550e3a4508fc543c6",
+            "latest": "第96章 大结局"
+          },
+          {
+            "ad": 0,
+            "word_count": 360390,
+            "owner": 2,
+            "allow_discount": 0,
+            "ad_time": 0,
+            "ad_duration": 0,
+            "score_count": 0,
+            "title": "焚灭仙穹",
+            "on_sale": true,
+            "comment_count": 0,
+            "has_ad": 1,
+            "latest_id": 148,
+            "score": 0,
+            "allow_free_read": 1,
+            "rights_id": 10068,
+            "channel": [
+              1
+            ],
+            "updated": 1473985014,
+            "finish": true,
+            "tags": [
+              "焚灭仙穹",
+              "玄幻奇幻",
+              "玄幻",
+              "东方玄幻"
+            ],
+            "price": 3,
+            "chapter_count": 149,
+            "authors": "皇极经世",
+            "categories": [
+              {
+                "category_id": 10000,
+                "label": "玄幻奇幻"
+              },
+              {
+                "category_id": 10100,
+                "label": "东方玄幻"
+              },
+              {
+                "category_id": 1000000,
+                "label": "玄幻"
+              },
+              {
+                "category_id": 1000100,
+                "label": "东方玄幻"
+              }
+            ],
+            "rights": "塔读文学网",
+            "level": 0,
+            "cover": "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01SzjvBWM1T/UqCKe7LxIbbm7c.jpg",
+            "summary": "大灾变之后，困厄与机缘并存的世界。\n山盟海誓尽皆浮云，花前月下都是虚妄。\n为了大道，天才女友叶雨宁义...",
+            "fiction_id": 348577,
+            "outer_id": "57d0ad3350e3a4508fc54395",
+            "latest": "第一百四十八章  浴魔血"
+          },
+          {
+            "ad": 0,
+            "word_count": 612703,
+            "owner": 2,
+            "allow_discount": 0,
+            "ad_time": 0,
+            "ad_duration": 0,
+            "score_count": 0,
+            "title": "首席独宠小萌妻",
+            "on_sale": true,
+            "comment_count": 0,
+            "has_ad": 1,
+            "latest_id": 301,
+            "score": 0,
+            "allow_free_read": 1,
+            "rights_id": 10068,
+            "channel": [
+              2
+            ],
+            "updated": 1473900005,
+            "finish": true,
+            "tags": [
+              "首席独宠小萌妻",
+              "总裁世家",
+              "总裁豪门",
+              "现代言情",
+              "豪门世家"
+            ],
+            "price": 3,
+            "chapter_count": 302,
+            "authors": "薄情姑娘",
+            "categories": [
+              {
+                "category_id": 120000,
+                "label": "总裁世家"
+              },
+              {
+                "category_id": 120100,
+                "label": "总裁豪门"
+              },
+              {
+                "category_id": 18000000,
+                "label": "现代言情"
+              },
+              {
+                "category_id": 18000700,
+                "label": "豪门世家"
+              }
+            ],
+            "rights": "塔读文学网",
+            "level": 0,
+            "cover": "http://cover.read.duokan.com/mfsv2/download/fdsc3/p017LOzpw2t1/UdDmxN0VKGuRrS.jpg",
+            "summary": "初次见面，她遇到渣男收了她的高跟鞋，她光脚进公司成为笑柄。他百般刁难，阻止她进公司，却遇到了传说中的...",
+            "fiction_id": 348559,
+            "outer_id": "57d0ad1e50e3a4508fc54377",
+            "latest": "第三百零一章：教堂婚礼"
+          },
+          {
+            "ad": 0,
+            "word_count": 663852,
+            "owner": 2,
+            "allow_discount": 0,
+            "ad_time": 0,
+            "ad_duration": 0,
+            "score_count": 0,
+            "title": "花都冒牌狂少",
+            "on_sale": true,
+            "comment_count": 0,
+            "has_ad": 1,
+            "latest_id": 229,
+            "score": 0,
+            "allow_free_read": 1,
+            "rights_id": 10068,
+            "channel": [
+              1
+            ],
+            "updated": 1473725921,
+            "finish": true,
+            "tags": [
+              "花都冒牌狂少",
+              "都市情缘",
+              "爱情婚姻",
+              "热血都市",
+              "都市"
+            ],
+            "price": 3,
+            "chapter_count": 230,
+            "authors": "田二三",
+            "categories": [
+              {
+                "category_id": 20000,
+                "label": "热血都市"
+              },
+              {
+                "category_id": 20100,
+                "label": "都市情缘"
+              },
+              {
+                "category_id": 5000000,
+                "label": "都市"
+              },
+              {
+                "category_id": 5000200,
+                "label": "爱情婚姻"
+              }
+            ],
+            "rights": "塔读文学网",
+            "level": 0,
+            "cover": "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01vfdkBT1ts/8MftWFxpg43nIa.jpg",
+            "summary": "落魄小锁匠一夜之间成为豪门继承人，美女、金钱、权力……他将一一握在手中！",
+            "fiction_id": 348034,
+            "outer_id": "57d0ad1c50e3a4508fc54373",
+            "latest": "第二百三十章  结局"
+          },
+          {
+            "ad": 0,
+            "word_count": 651015,
+            "owner": 2,
+            "allow_discount": false,
+            "ad_time": 0,
+            "ad_duration": 0,
+            "score_count": 0,
+            "title": "离婚男神狠狠爱",
+            "on_sale": true,
+            "comment_count": 0,
+            "has_ad": 1,
+            "latest_id": 315,
+            "score": 0,
+            "allow_free_read": 1,
+            "rights_id": 10068,
+            "channel": [
+              2
+            ],
+            "updated": 1473900152,
+            "finish": true,
+            "tags": [
+              "离婚男神狠狠爱",
+              "总裁世家",
+              "总裁豪门",
+              "现代言情",
+              "豪门世家"
+            ],
+            "price": 3,
+            "chapter_count": 316,
+            "authors": "笑流年",
+            "categories": [
+              {
+                "category_id": 120000,
+                "label": "总裁世家"
+              },
+              {
+                "category_id": 120100,
+                "label": "总裁豪门"
+              },
+              {
+                "category_id": 18000000,
+                "label": "现代言情"
+              },
+              {
+                "category_id": 18000700,
+                "label": "豪门世家"
+              }
+            ],
+            "rights": "塔读文学网",
+            "level": 0,
+            "cover": "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01JAp19tO1b/Q520ss26KxGJzW.jpg",
+            "summary": "一场车祸撞到一个高富帅，从此就被他纠缠不休。\n被他宠，被他爱，被他逼上床，被他娶进家门，却发现原来只...",
+            "fiction_id": 348561,
+            "outer_id": "57d0ad1b50e3a4508fc54372",
+            "latest": "第三百一十六章：甜蜜结局"
+          },
+          {
+            "ad": 0,
+            "word_count": 1254422,
+            "owner": 2,
+            "allow_discount": 0,
+            "ad_time": 0,
+            "ad_duration": 0,
+            "score_count": 0,
+            "title": "天才灵帝",
+            "on_sale": true,
+            "comment_count": 0,
+            "has_ad": 1,
+            "latest_id": 390,
+            "score": 0,
+            "allow_free_read": 1,
+            "rights_id": 10068,
+            "channel": [
+              1
+            ],
+            "updated": 1474244096,
+            "finish": true,
+            "tags": [
+              "天才灵帝",
+              "玄幻奇幻",
+              "玄幻",
+              "东方玄幻"
+            ],
+            "price": 3,
+            "chapter_count": 391,
+            "authors": "破灭天羽",
+            "categories": [
+              {
+                "category_id": 10000,
+                "label": "玄幻奇幻"
+              },
+              {
+                "category_id": 10100,
+                "label": "东方玄幻"
+              },
+              {
+                "category_id": 1000000,
+                "label": "玄幻"
+              },
+              {
+                "category_id": 1000100,
+                "label": "东方玄幻"
+              }
+            ],
+            "rights": "塔读文学网",
+            "level": 0,
+            "cover": "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01SRwWqLmFd/gCWgSCYhWXnbQL.jpg",
+            "summary": "偶有奇遇，在山间拾得一尊美女冰雕，草根命运就此改变！\n两年沉寂，只为一朝崛起，曾经失去的荣耀，要靠这...",
+            "fiction_id": 348793,
+            "outer_id": "57d0accf50e3a4508fc54316",
+            "latest": "第390章 大结局"
+          }
+        ]
+      },
+      "size": 0
+    }
+  ],
+  "ad_setting_id": 371,
+  "result": 0,
+  "ad_setting_name": "H5-免费专区"
+}
