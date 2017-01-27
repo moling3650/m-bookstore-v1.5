@@ -14,6 +14,22 @@ var port = process.env.PORT || config.dev.port
 var proxyTable = config.dev.proxyTable
 
 var app = express()
+var apiRoutes = express.Router()
+
+apiRoutes.param('id', function (req, res, next, id) {
+  next();
+})
+
+apiRoutes.get('/channel/:id', (req, res) => {
+  let id = req.params.id || '418'
+  if (!['369', '370', '371'].some((cid) => cid === id)) {
+    id = '418'
+  }
+  res.json(require(`../mock/channel/${id}.json`))
+})
+
+app.use('/api', apiRoutes)
+
 var compiler = webpack(webpackConfig)
 
 var devMiddleware = require('webpack-dev-middleware')(compiler, {
