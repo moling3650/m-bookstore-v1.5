@@ -1,5 +1,6 @@
 var path = require('path')
 var express = require('express')
+var request = require('request')
 var webpack = require('webpack')
 var config = require('../config')
 var proxyMiddleware = require('http-proxy-middleware')
@@ -15,9 +16,25 @@ var proxyTable = config.dev.proxyTable
 
 var app = express()
 var apiRoutes = express.Router()
-
+var headers = {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+  }
 apiRoutes.param('id', function (req, res, next, id) {
   next();
+})
+
+apiRoutes.get('/book/:id', (req, res) => {
+  let id = req.params.id
+  let options = {
+    url: `http://dushu.xiaomi.com/hs/v0/android/fiction/book/${id}`,
+    headers
+  }
+  request(options, (error, response, body) => {
+    if (!error && response.statusCode == 200) {
+      res.json(JSON.parse(body))
+    }
+  })
+
 })
 
 apiRoutes.get('/channel/:id', (req, res) => {
