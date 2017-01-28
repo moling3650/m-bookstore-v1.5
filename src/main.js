@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
+import VueResource from 'vue-resource'
 import App from './App'
 import Main from 'components/main/main'
 import Free from 'components/free/free'
@@ -9,6 +10,7 @@ import Category from 'components/category/category'
 import Book from 'components/book/book'
 
 Vue.use(VueRouter)
+Vue.use(VueResource)
 
 let app = Vue.extend(App)
 
