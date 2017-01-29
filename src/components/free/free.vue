@@ -2,17 +2,10 @@
   <div class="free">
     <top title="免费专区"></top>
     <main class="container">
-      <section class="main-card" v-if="items[0]">
-        <group-header :title="items[0].ad_name"></group-header>
-        <book-table :books="items[0].books"></book-table>
-      </section>
-      <section class="main-card" v-if="items[1]">
-        <group-header :title="items[1].ad_name" :desc="items[1].ad_copy"></group-header>
-        <book-table :books="items[1].books"></book-table>
-      </section>
-      <section class="main-card" v-if="items[3]">
-        <group-header :title="items[3].ad_name" :desc="items[3].ad_copy"></group-header>
-        <book-table :books="items[3].books"></book-table>
+      <section class="main-card" v-for="item in items" track-by="$index">
+        <group-header :title="item.ad_name" :desc="item.ad_copy"></group-header>
+        <book-table v-if="!($index==2||$index==4)" :books="item.books"></book-table>
+        <book-list v-if="($index==2||$index==4)" :books="item.books"></book-list>
       </section>
     </main>
   </div>
@@ -22,13 +15,15 @@
   import { getApiData } from 'common/js/utils.js'
   import Top from 'components/common/top/top'
   import BookTable from 'components/common/book-table/book-table'
+  import BookList from 'components/common/book-list/book-list'
   import GroupHeader from 'components/common/group-header/group-header'
 
   export default {
     components: {
       Top,
+      GroupHeader,
       BookTable,
-      GroupHeader
+      BookList
     },
     data () {
       return {
