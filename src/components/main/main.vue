@@ -1,8 +1,14 @@
 <template>
   <div class="main">
     <div class="container">
-      <book-table v-if="items[1]" :books="items[1].data"></book-table>
-      <book-table v-if="items[5]" :books="items[5].data"></book-table>
+      <section class="main-card" v-if="items[1]">
+        <group-header :title="items[1].ad_name"></group-header>
+        <book-table :books="items[1].data"></book-table>
+      </section>
+      <section class="main-card" v-if="items[5]">
+        <group-header :title="items[5].ad_name"></group-header>
+        <book-table :books="items[5].data"></book-table>
+      </section>
     </div>
   </div>
 </template>
@@ -10,10 +16,12 @@
 <script type="text/ecmascript-6">
   import { getApiData } from 'common/js/utils.js'
   import BookTable from 'components/common/book-table/book-table'
+  import GroupHeader from 'components/common/group-header/group-header'
 
   export default {
     components: {
-      BookTable
+      BookTable,
+      GroupHeader
     },
     data () {
       return {
@@ -39,4 +47,6 @@
 </script>
 
 <style lang="stylus" scoped>
+  .book-table
+    padding 13px 14px 5px
 </style>

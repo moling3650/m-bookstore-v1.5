@@ -1,7 +1,7 @@
 <template>
   <header class="group-header">
     <h2 class="title" v-text="title"></h2>
-    <p class="desc" v-text="desc"></p>
+    <p class="desc" v-if="desc" v-text="desc"></p>
   </header>
 </template>
 
