@@ -1,16 +1,22 @@
 <template>
   <div class="book">
     <top :title="book.title"></top>
+    <main class="container">
+      <book-table :books="author_books"></book-table>
+      <book-table :books="related"></book-table>
+    </main>
   </div>
 </template>
 
 <script type="text/ecmascript-6">
   import { getApiData } from 'common/js/utils.js'
   import Top from 'components/common/top/top'
+  import BookTable from 'components/common/book-table/book-table'
 
   export default {
     components: {
-      Top
+      Top,
+      BookTable
     },
     data () {
       return {
