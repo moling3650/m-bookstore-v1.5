@@ -4,10 +4,12 @@
       <section class="main-card" v-if="items[1]">
         <group-header :title="items[1].ad_name"></group-header>
         <book-table :books="items[1].data"></book-table>
+        <group-footer :text="items[1].info.more_text"></group-footer>
       </section>
       <section class="main-card" v-if="items[5]">
         <group-header :title="items[5].ad_name"></group-header>
         <book-table :books="items[5].data"></book-table>
+        <group-footer :text="items[5].info.more_text"></group-footer>
       </section>
     </div>
   </div>
@@ -15,13 +17,15 @@
 
 <script type="text/ecmascript-6">
   import { getApiData, parseHiddenInfo } from 'common/js/utils.js'
-  import BookTable from 'components/common/book-table/book-table'
   import GroupHeader from 'components/common/group-header/group-header'
+  import BookTable from 'components/common/book-table/book-table'
+  import GroupFooter from 'components/common/group-footer/group-footer'
 
   export default {
     components: {
+      GroupHeader,
       BookTable,
-      GroupHeader
+      GroupFooter
     },
     data () {
       return {

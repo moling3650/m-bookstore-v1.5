@@ -5,6 +5,7 @@
       <section class="main-card" v-for="item in items">
         <group-header :title="item.ad_name"></group-header>
         <book-list :books="item.books"></book-list>
+        <group-footer :text="item.info.more_text"></group-footer>
       </section>
     </div>
   </div>
@@ -15,12 +16,14 @@
   import Top from 'components/common/top/top'
   import GroupHeader from 'components/common/group-header/group-header'
   import BookList from 'components/common/book-list/book-list'
+  import GroupFooter from 'components/common/group-footer/group-footer'
 
   export default {
     components: {
       Top,
       GroupHeader,
-      BookList
+      BookList,
+      GroupFooter
     },
     data () {
       return {

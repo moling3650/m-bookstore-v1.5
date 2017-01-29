@@ -6,6 +6,7 @@
         <group-header :title="item.ad_name" :desc="item.ad_copy"></group-header>
         <book-table v-if="!($index==2||$index==4)" :books="item.books"></book-table>
         <book-list v-if="($index==2||$index==4)" :books="item.books"></book-list>
+        <group-footer v-if="$index > 0" :text="item.info.more_text"></group-footer>
       </section>
     </main>
   </div>
@@ -14,16 +15,18 @@
 <script type="text/ecmascript-6">
   import { getApiData, parseHiddenInfo } from 'common/js/utils.js'
   import Top from 'components/common/top/top'
+  import GroupHeader from 'components/common/group-header/group-header'
   import BookTable from 'components/common/book-table/book-table'
   import BookList from 'components/common/book-list/book-list'
-  import GroupHeader from 'components/common/group-header/group-header'
+  import GroupFooter from 'components/common/group-footer/group-footer'
 
   export default {
     components: {
       Top,
       GroupHeader,
       BookTable,
-      BookList
+      BookList,
+      GroupFooter
     },
     data () {
       return {
