@@ -9,6 +9,8 @@ import Girl from 'components/girl/girl'
 import Category from 'components/category/category'
 import Book from 'components/book/book'
 
+import 'common/stylus/base.styl'
+
 Vue.use(VueRouter)
 Vue.use(VueResource)
 
