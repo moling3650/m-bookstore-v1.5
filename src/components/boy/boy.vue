@@ -4,6 +4,7 @@
     <div class="container">
       <section class="main-card" v-for="item in items">
         <group-header :title="item.ad_name"></group-header>
+        <book-list :books="item.books"></book-list>
       </section>
     </div>
   </div>
@@ -13,11 +14,13 @@
   import { getApiData } from 'common/js/utils.js'
   import Top from 'components/common/top/top'
   import GroupHeader from 'components/common/group-header/group-header'
+  import BookList from 'components/common/book-list/book-list'
 
   export default {
     components: {
       Top,
-      GroupHeader
+      GroupHeader,
+      BookList
     },
     data () {
       return {
@@ -30,7 +33,7 @@
           let _item = {
             ad_name: item.ad_name,
             hidden_info: item.hidden_info,
-            data: item.data.data
+            books: item.data.data
           }
           this.items.push(_item)
         })
