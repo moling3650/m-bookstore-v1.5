@@ -2,9 +2,18 @@
   <div class="free">
     <top title="免费专区"></top>
     <main class="container">
-      <book-table v-if="items[0]" :books="items[0].books"></book-table>
-      <book-table v-if="items[1]" :books="items[1].books"></book-table>
-      <book-table v-if="items[3]" :books="items[3].books"></book-table>
+      <section class="main-card" v-if="items[0]">
+        <group-header :title="items[0].ad_name"></group-header>
+        <book-table :books="items[0].books"></book-table>
+      </section>
+      <section class="main-card" v-if="items[1]">
+        <group-header :title="items[1].ad_name" :desc="items[1].ad_copy"></group-header>
+        <book-table :books="items[1].books"></book-table>
+      </section>
+      <section class="main-card" v-if="items[3]">
+        <group-header :title="items[3].ad_name" :desc="items[3].ad_copy"></group-header>
+        <book-table :books="items[3].books"></book-table>
+      </section>
     </main>
   </div>
 </template>
@@ -13,11 +22,13 @@
   import { getApiData } from 'common/js/utils.js'
   import Top from 'components/common/top/top'
   import BookTable from 'components/common/book-table/book-table'
+  import GroupHeader from 'components/common/group-header/group-header'
 
   export default {
     components: {
       Top,
-      BookTable
+      BookTable,
+      GroupHeader
     },
     data () {
       return {
@@ -43,4 +54,7 @@
 </script>
 
 <style lang="stylus" scoped>
+  .book-table
+    padding 13px 14px 5px
+    font-size 0
 </style>
