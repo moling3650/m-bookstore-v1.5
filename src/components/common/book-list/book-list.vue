@@ -29,6 +29,10 @@
     position relative
     padding 13px 14px
     cursor pointer
+    overflow hidden
+    border-bottom 1px solid #f0f0f0
+    &:last-child
+      border-bottom none
     .cover
       width 104px
       height 136px
@@ -70,4 +74,5 @@
         font-size 12px
         color #8d8d8d
         transform scale(.8)
+        single-line()
 </style>
