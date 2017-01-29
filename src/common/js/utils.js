@@ -12,3 +12,12 @@ exports.getApiData = (url, succssdedCallback, failedCallback) => {
     }
   }).catch(err => failedCallback && failedCallback(err))
 }
+
+exports.parseHiddenInfo = (info) => {
+  let obj = {}
+  info.replace(/[\[\]\{\}]/g, '').split(';').map(str => {
+    let [key, value] = str.split('|')
+    obj[key] = value
+  })
+  return obj
+}

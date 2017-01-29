@@ -14,7 +14,7 @@
 </template>
 
 <script type="text/ecmascript-6">
-  import { getApiData } from 'common/js/utils.js'
+  import { getApiData, parseHiddenInfo } from 'common/js/utils.js'
   import BookTable from 'components/common/book-table/book-table'
   import GroupHeader from 'components/common/group-header/group-header'
 
@@ -33,8 +33,8 @@
         data.items.map(item => {
           let _item = {
             ad_name: item.ad_name,
-            hidden_info: item.hidden_info,
-            data: []
+            data: [],
+            info: parseHiddenInfo(item.hidden_info)
           }
           item.data.data.map(data => {
             _item.data.push(data.data ? data.data : data)
