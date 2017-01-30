@@ -26,7 +26,7 @@
       }
     },
     ready () {
-      let id = '348392'
+      let id = this.$route.params.fiction_id || '348392'
       getApiData(`/api/book/${id}`, data => {
         this.book = data.item
         this.author_books = data.author_books

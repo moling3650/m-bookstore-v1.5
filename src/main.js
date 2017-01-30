@@ -26,7 +26,10 @@ router.map({
   '/boy': { component: Boy },
   '/girl': { component: Girl },
   '/category': { component: Category },
-  '/book': { component: Book }
+  '/book/:fiction_id': {
+    name: 'book',
+    component: Book
+  }
 })
 
 router.start(app, '#app')

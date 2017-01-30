@@ -1,17 +1,19 @@
 <template>
   <li class="h5-book">
-    <div class="cover-wrap">
-      <img class="cover" :src="book.cover" :alt="book.title" />
-      <p class="finish" v-text="book.finish ? '完结' : '连载'"></p>
-    </div>
-    <div class="info">
-      <p class="title" v-text="book.title"></p>
-      <p class="author" v-text="book.authors"></p>
-      <p class="summary" v-text="book.summary"></p>
-      <p class="tags">
-        <span class="tag" v-for="tag in tags" v-text="tag"></span>
-      </p>
-    </div>
+    <a class="h5-book-wrap" v-link="{ name: 'book', params: { fiction_id: book.fiction_id}}">
+      <div class="cover-wrap">
+        <img class="cover" :src="book.cover" :alt="book.title" />
+        <p class="finish" v-text="book.finish ? '完结' : '连载'"></p>
+      </div>
+      <div class="info">
+        <p class="title" v-text="book.title"></p>
+        <p class="author" v-text="book.authors"></p>
+        <p class="summary" v-text="book.summary"></p>
+        <p class="tags">
+          <span class="tag" v-for="tag in tags" v-text="tag"></span>
+        </p>
+      </div>
+    </a>
   </li>
 </template>
 
@@ -33,7 +35,7 @@
 <style lang="stylus" scoped>
   @import '../../../common/stylus/mixin'
 
-  .h5-book
+  .h5-book-wrap
     display flex
     overflow hidden
   .cover-wrap
@@ -73,6 +75,7 @@
     height 2.8em
     font-size 12px
     line-height 1.4em
+    color rgba(0, 0, 0, .6)
     display -webkit-box
     overflow hidden
     text-overflow ellipsis
