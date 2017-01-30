@@ -18,6 +18,11 @@
       Top,
       BookTable
     },
+    route: {
+      canReuse () {
+        return this.book.fiction_id === this.$route.params.fiction_id
+      }
+    },
     data () {
       return {
         book: {},
