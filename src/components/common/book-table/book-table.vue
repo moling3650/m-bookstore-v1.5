@@ -1,10 +1,10 @@
 <template>
   <ul class="book-table">
     <li class="item" v-for="book in books" track-by="$index">
-      <div class="book">
+      <a class="book" v-link="{ name: 'book', params: { fiction_id: book.fiction_id}}">
         <img class="cover" :src="book.cover" :alt="book.title" />
         <h1 class="title" v-text="book.title"></h1>
-      </div>
+      </a>
     </li>
   </ul>
 </template>

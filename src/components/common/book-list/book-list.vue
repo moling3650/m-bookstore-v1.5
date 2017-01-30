@@ -1,15 +1,17 @@
 <template>
   <ul class="book-list">
-    <li class="book" v-for="book in books" track-by="$index">
-      <img class="cover" :src="book.cover" :alt="book.title" />
-      <div class="info">
-        <h1 class="title" v-text="book.title"></h1>
-        <p class="summary" v-text="book.summary"></p>
-        <p class="author" v-text="book.authors"></p>
-        <ul class="tags">
-          <li class="tag" v-for="tag in book.tags | limitBy 2" track-by="$index" v-text="tag"></li>
-        </ul>
-      </div>
+    <li v-for="book in books" track-by="$index">
+      <a class="book" v-link="{ name: 'book', params: { fiction_id: book.fiction_id}}">
+        <img class="cover" :src="book.cover" :alt="book.title" />
+        <div class="info">
+          <h1 class="title" v-text="book.title"></h1>
+          <p class="summary" v-text="book.summary"></p>
+          <p class="author" v-text="book.authors"></p>
+          <ul class="tags">
+            <li class="tag" v-for="tag in book.tags | limitBy 2" track-by="$index" v-text="tag"></li>
+          </ul>
+        </div>
+      </a>
     </li>
   </ul>
 </template>
@@ -27,6 +29,7 @@
 
   .book
     position relative
+    display block
     padding 13px 14px
     cursor pointer
     overflow hidden
@@ -52,6 +55,7 @@
       height 3.2em
       font-size 13px
       line-height 1.6em
+      color #666
       overflow hidden
       text-overflow ellipsis
       -webkit-line-clamp 2
