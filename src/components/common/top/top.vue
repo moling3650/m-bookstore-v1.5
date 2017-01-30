@@ -1,6 +1,6 @@
 <template>
   <header class="top">
-    <a class="back"></a>
+    <a class="back" onclick="window.history.go(-1)"></a>
     <span class="title" v-text="title"></span>
     <a v-link="{path: '/'}" class="home"></a>
   </header>
