@@ -64,8 +64,14 @@
         <header class="h5-header">
           <h2 class="title" v-text="topic.title"></h2>
         </header>
+        <ul class="banner-list">
+          <li class="banner" v-for="banner in topic.data">
+            <a>
+              <img class="cover" :src="banner.ad_pic_url" :alt="banner.ad_name" />
+            </a>
+          </li>
+        </ul>
         <footer class="h5-footer">
-          <a class="next">换一换</a>
           <a class="more" v-text="topic.info.more_text"></a>
         </footer>
       </section><!-- 精选专题 -->
@@ -213,4 +219,15 @@
       text-align center
     .more
       border-left 1px solid #f0f0f0
+  .banner-list
+    padding 13px
+    font-size 0
+    .banner
+      display inline-block
+      width 50%
+      padding 0 5px
+      box-sizing border-box
+      .cover
+        width 100%
+        height 100%
 </style>
