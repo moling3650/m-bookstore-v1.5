@@ -1,6 +1,23 @@
 <template>
   <div class="main">
+    <top title="m-bookstore"></top>
     <div class="container">
+      <section class="main-card">
+      <div class="search-box">输入书名/作者/关键字</div>
+      <div class="slider-banner">
+        <ul class="slider-wrap">
+          <li class="item">
+            <img src="http://image.read.duokan.com/mfsv2/download/fdsc3/p01qDSHWUGqf/DoSt6VIaNe0oC2.jpg"/>
+          </li>
+        </ul>
+      </div>
+      <ul class="nav-bar">
+        <li class="item"><a class="free" v-link="{ path: '/free' }">免费</a></li>
+        <li class="item"><a class="boy" v-link="{ path: '/boy' }">男生</a></li>
+        <li class="item"><a class="girl" v-link="{ path: '/girl' }">女生</a></li>
+        <li class="item"><a class="category" v-link="{ path: '/category' }">分类</a></li>
+      </ul>
+      </section><!-- 顶部轮播图 -->
       <section class="main-card" v-if="hot">
         <group-header :title="hot.title"></group-header>
         <book-table :books="hot.data"></book-table>
@@ -18,7 +35,7 @@
           <template v-for="book in recommendBooks">
             <h5-book v-if="$index === 0" :book="book"></h5-book>
             <li class="h5-book" v-else>
-              <a v-link="{ name: 'book', params: { fiction_id: book.fiction_id}}">
+              <a class="info" v-link="{ name: 'book', params: { fiction_id: book.fiction_id}}">
                 <span class="index" v-text="'0' + ($index+1)"></span>
                 <span class="title" v-text="book.title"></span>
                 <span class="author" v-text="book.authors"></span>
@@ -81,6 +98,7 @@
 
 <script type="text/ecmascript-6">
   import { getApiData, parseHiddenInfo } from 'common/js/utils.js'
+  import Top from 'components/common/top/top'
   import GroupHeader from 'components/common/group-header/group-header'
   import BookTable from 'components/common/book-table/book-table'
   import GroupFooter from 'components/common/group-footer/group-footer'
@@ -88,6 +106,7 @@
 
   export default {
     components: {
+      Top,
       GroupHeader,
       BookTable,
       GroupFooter,
@@ -158,6 +177,35 @@
 </script>
 
 <style lang="stylus" scoped>
+  .search-box
+    padding 1px 0 0 30px
+    border 1px solid #f5f5f5
+    border-radius 2px
+    margin 10px 13px
+    font-size 11px
+    line-height 31px
+    color rgba(0, 0, 0, .4)
+    background url('search.png') no-repeat 8px center
+    background-size 14px
+  .slider-wrap
+    width 100%
+    .item
+      img
+        width 100%
+  .nav-bar
+    display flex
+    width 100%
+    .item
+      flex 1
+      font-size 12px
+      line-height 3.4
+      text-align center
+    for pic in free boy girl category
+      .{pic}
+        display block
+        padding-top 25px
+        background url(s('%s.png', pic)) no-repeat center 10px
+        background-size 22px
   .book-table
     padding 13px 14px 5px
 
