@@ -1,7 +1,7 @@
 <template>
   <div class="main">
     <top title="m-bookstore"></top>
-    <div class="container">
+    <div class="container" @scroll="containerScroll" v-el:container>
       <section class="main-card">
       <div class="search-box">输入书名/作者/关键字</div>
       <div class="slider-banner">
@@ -92,6 +92,11 @@
           <a class="more" v-text="topic.info.more_text"></a>
         </footer>
       </section><!-- 精选专题 -->
+      <section class="main-card" v-if="waterfallBooks.length">
+        <ul class="h5-book-list">
+          <h5-book v-for="book in waterfallBooks" :book="book" track-by="$index"></h5-book>
+        </ul>
+      </section><!-- 女生最爱 -->
     </div>
   </div>
 </template>
@@ -130,6 +135,26 @@
       },
       switchType (type) {
         this.recommend.type = type
+      },
+      addWaterfallBooks () {
+        let start = this.waterfallBooks.length
+        getApiData(`/api/recommend?strat=${start}`, data => {
+          if (start === this.waterfallBooks.length) {
+            this.waterfallBooks.push(...data.items)
+          }
+        })
+      },
+      containerScroll () {
+        if (!this.timer) {
+          this.timer = setTimeout(() => {
+            clearTimeout(this.timer)
+            this.timer = null
+            let el = this.$els.container
+            if (el.scrollHeight - el.clientHeight - el.scrollTop < el.clientHeight * 0.5) {
+              this.addWaterfallBooks()
+            }
+          }, 500)
+        }
       }
     },
     data () {
@@ -141,7 +166,9 @@
         girl: null,
         boy: null,
         free: null,
-        topic: null
+        topic: null,
+        waterfallBooks: [],
+        timer: null
       }
     },
     ready () {

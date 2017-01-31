@@ -38,6 +38,19 @@ apiRoutes.get('/book/:id', (req, res) => {
   })
 })
 
+apiRoutes.get('/recommend', (req, res) => {
+  let start = req.query.start || '0'
+  let options = {
+    url: `http://dushu.xiaomi.com/rock/book/recommend?start=${start}&count=10`,
+    headers
+  }
+  request(options, (error, response, body) => {
+    if (!error && response.statusCode == 200) {
+      res.json(JSON.parse(body))
+    }
+  })
+})
+
 apiRoutes.get('/channel/:id', (req, res) => {
   let id = req.params.id || '418'
   if (!['369', '370', '371'].some((cid) => cid === id)) {
