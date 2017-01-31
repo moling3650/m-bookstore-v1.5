@@ -9,20 +9,26 @@
       <section class="main-card" v-if="recommend">
         <header class="h5-header">
           <h2 class="title" v-text="recommend.title"></h2>
+          <div class="recommend-tabs">
+            <a class="tab" :class="{'on': recommend.type === 'boy'}" @click.prevent="switchType('boy')">男</a>
+            <a class="tab" :class="{'on': recommend.type === 'girl'}" @click.prevent="switchType('girl')">女</a>
+          </div>
         </header>
         <ul class="h5-book-list">
-          <h5-book :book="recommend.boy.data[0]"></h5-book>
-          <li class="h5-book" v-for="book in recommend.boy.data | limitBy 4 1">
-            <p>
-              <span class="index" v-text="'0' + ($index+2)"></span>
-              <span class="title" v-text="book.title"></span>
-              <span class="author" v-text="book.authors"></span>
-            </p>
-          </li>
+          <template v-for="book in recommendBooks">
+            <h5-book v-if="$index === 0" :book="book"></h5-book>
+            <li class="h5-book" v-else>
+              <a v-link="{ name: 'book', params: { fiction_id: book.fiction_id}}">
+                <span class="index" v-text="'0' + ($index+1)"></span>
+                <span class="title" v-text="book.title"></span>
+                <span class="author" v-text="book.authors"></span>
+              </a>
+            </li>
+          </template>
         </ul>
         <footer class="h5-footer">
-          <a class="next">换一换</a>
-          <a class="more">查看全部</a>
+          <a class="next" @click.prevent="getNextBooks(recommend[recommend.type])">换一换</a>
+          <a class="more" v-link="{ path: recommend.type === 'girl' ? '/girl' : '/boy' }" >查看全部</a>
         </footer>
       </section><!-- 重磅推荐 -->
       <section class="main-card" v-if="girl">
@@ -82,6 +88,10 @@
       H5Book
     },
     computed: {
+      recommendBooks () {
+        let type = this.recommend[this.recommend.type]
+        return type.data.filter((item, idx) => idx >= type.start && idx < type.start + 5)
+      },
       girlBooks () {
         return this.girl.data.filter((item, idx) => idx >= this.girl.start && idx < this.girl.start + 5)
       },
@@ -92,6 +102,9 @@
     methods: {
       getNextBooks (obj) {
         obj.start = (obj.start + 5) % obj.data.length
+      },
+      switchType (type) {
+        this.recommend.type = type
       }
     },
     data () {
@@ -143,13 +156,30 @@
     padding 13px 14px 5px
 
   .h5-header
+    position relative
     padding 15px 13px 14px 13px
     border-bottom 1px solid #f0f0f0
+    font-size 13px
+    line-height 13px
     .title
-      font-size 13px
-      line-height 13px
       font-weight bold
       color rgba(0, 0, 0, .9)
+    .recommend-tabs
+      position absolute
+      top 15px
+      right 13px
+      color #999
+      .tab
+        padding 15px 8px 14px 8px
+        &:first-child:after
+          content ''
+          position absolute
+          display inline-block
+          height 12px
+          margin-left 8px
+          border-right 1px solid #ccc
+        &.on
+          color #528ae8
   .h5-book-list
     padding 0 13px
   .h5-book
