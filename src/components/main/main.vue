@@ -96,7 +96,7 @@
         <ul class="h5-book-list">
           <h5-book v-for="book in waterfallBooks" :book="book" track-by="$index"></h5-book>
         </ul>
-      </section><!-- 女生最爱 -->
+      </section><!-- 瀑布流 -->
     </div>
   </div>
 </template>
