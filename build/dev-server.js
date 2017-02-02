@@ -38,6 +38,20 @@ apiRoutes.get('/book/:id', (req, res) => {
   })
 })
 
+apiRoutes.get('/link', (req, res) => {
+  let fid = req.query.fiction_id || '18211'
+  let cid = req.query.chapter_id || '1'
+  let options = {
+    url: `http://dushu.xiaomi.com/drm/v0/fiction/link?fiction_id=${fid}&chapter_id=${cid}&format=jsonp`,
+    headers
+  }
+  request(options, (error, response, body) => {
+    if (!error && response.statusCode == 200) {
+      res.json(JSON.parse(body))
+    }
+  })
+})
+
 apiRoutes.get('/recommend', (req, res) => {
   let start = req.query.start || '0'
   let options = {
