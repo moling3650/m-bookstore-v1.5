@@ -53,10 +53,7 @@
     },
     computed: {
       tags () {
-        if (this.book.tags) {
-          return this.book.tags.slice(0, 3)
-        }
-        return []
+        return this.book.tags ? this.book.tags.slice(0, 3) : []
       },
       scoreClass () {
         if (this.book.score) {
@@ -65,9 +62,19 @@
         return 'score-0'
       }
     },
+    methods: {
+      init () {
+        let fictionId = this.$route.params.fiction_id
+        getApiData(`/api/book/${fictionId}`, data => {
+          this.book = data.item
+          this.author_books = data.author_books
+          this.related = data.related
+        })
+      }
+    },
     route: {
-      canReuse () {
-        return this.book.fiction_id === this.$route.params.fiction_id
+      data () {
+        this.init()
       }
     },
     data () {
@@ -78,12 +85,7 @@
       }
     },
     ready () {
-      let id = this.$route.params.fiction_id || '348392'
-      getApiData(`/api/book/${id}`, data => {
-        this.book = data.item
-        this.author_books = data.author_books
-        this.related = data.related
-      })
+      this.init()
     }
   }
 </script>

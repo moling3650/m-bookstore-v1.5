@@ -155,6 +155,11 @@
         getApiData(`/api/detail/${this.fictionId}`, data => { this.book = data.item })
       }
     },
+    route: {
+      data () {
+        this.init()
+      }
+    },
     data () {
       return {
         fictionId: 0,
