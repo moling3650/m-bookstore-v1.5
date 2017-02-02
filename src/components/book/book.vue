@@ -14,7 +14,7 @@
           </div>
         </div>
         <ul class="btn-group">
-          <li class="btn"></li>
+          <li class="btn" v-link="{ path: `/reader?fiction_id=${book.fiction_id}` }"></li>
         </ul>
         <div class="content" v-text="book.content"></div>
         <div class="latest">最新：{{ book.latest }} 更新于 {{ book.updated }}</div>
@@ -162,6 +162,7 @@
       line-height 40px
       text-align center
       box-sizing border-box
+      cursor pointer
       &:first-child
         &:before
           content '阅读全文'
@@ -223,7 +224,4 @@
       line-height 1.6
       &:before
         content '版权：'
-
-
-
 </style>

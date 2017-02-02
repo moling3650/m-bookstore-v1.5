@@ -12,7 +12,7 @@
 </template>
 
 <script type="text/ecmascript-6">
-  import { getChapterContent, storageGetter } from 'common/js/utils.js'
+  import { getChapterContent, storageGetter, storageSetter } from 'common/js/utils.js'
 
   export default {
     methods: {
@@ -28,19 +28,17 @@
             if (isBottom) {
               getChapterContent(`/api/link?fiction_id=${this.fictionId}&chapter_id=${++this.chapterId}`, chapter => {
                 this.chapters.push(chapter)
+                storageSetter(`${this.fiction_id}-chapter_id`, this.chapterId)
               })
             }
           }, 500)
         }
       },
       init () {
+        this.fictionId = this.$route.query.fiction_id
+        this.chapterId = parseInt(storageGetter(`${this.fiction_id}-chapter_id`)) || 0
         this.fontSize = parseInt(storageGetter('font-size')) || 14
-        if (window.location.href.match(/fiction_id=(\d+)/)) {
-          this.fictionId = parseInt(RegExp.$1)
-        }
-        if (window.location.href.match(/chapter_id=(\d+)/)) {
-          this.chapterId = parseInt(RegExp.$1)
-        }
+
         getChapterContent(`/api/link?fiction_id=${this.fictionId}&chapter_id=${this.chapterId}`, chapter => {
           this.chapters.splice(0, this.chapters.length, chapter)
         })
