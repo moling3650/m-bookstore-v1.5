@@ -38,6 +38,19 @@ apiRoutes.get('/book/:id', (req, res) => {
   })
 })
 
+apiRoutes.get('/detail/:id', (req, res) => {
+  let id = req.params.id
+  let options = {
+    url: `http://dushu.xiaomi.com/store/v0/fiction/detail/${id}`,
+    headers
+  }
+  request(options, (error, response, body) => {
+    if (!error && response.statusCode == 200) {
+      res.json(JSON.parse(body))
+    }
+  })
+})
+
 apiRoutes.get('/link', (req, res) => {
   let fid = req.query.fiction_id || '18211'
   let cid = req.query.chapter_id || '1'
