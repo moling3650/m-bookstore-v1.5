@@ -17,7 +17,7 @@
           <li class="btn" v-link="{ path: `/reader?fiction_id=${book.fiction_id}` }"></li>
         </ul>
         <div class="content" v-text="book.content"></div>
-        <div class="latest">最新：{{ book.latest }} 更新于 {{ book.updated }}</div>
+        <div class="latest">最新：{{ book.latest }} 更新于 {{ book.updated | smartDate}}</div>
       </div>
       <div class="main-card">
         <h2 class="tag-header">类别标签</h2>
@@ -60,6 +60,36 @@
           return `score-${parseInt(this.book.score)}`
         }
         return 'score-0'
+      }
+    },
+    filters: {
+      smartDate (timestamp) {
+        timestamp *= 1000
+
+        if (!timestamp) {
+          return ''
+        }
+        let today = new Date()
+        let now = today.getTime()
+        let result = '1分钟前'
+        let t = now - timestamp
+        if (t > 604800000) {
+          let that = new Date(timestamp)
+          let yyyy = that.getFullYear()
+          let M = that.getMonth() + 1
+          let d = that.getDate()
+          let h = that.getHours()
+          let m = that.getMinutes()
+          result = yyyy === today.getFullYear() ? '' : yyyy + '年'
+          result += `${M}月${d}日 ${h}:${m < 10 ? '0' : '' + m}`
+        } else if (t >= 86400000) {
+          result = Math.floor(t / 86400000) + '天前'
+        } else if (t >= 3600000) {
+          result = Math.floor(t / 3600000) + '小时前'
+        } else if (t >= 60000) {
+          result = Math.floor(t / 60000) + '分钟前'
+        }
+        return result
       }
     },
     methods: {
