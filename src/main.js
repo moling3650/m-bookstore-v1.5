@@ -8,6 +8,7 @@ import Boy from 'components/boy/boy'
 import Girl from 'components/girl/girl'
 import Category from 'components/category/category'
 import Book from 'components/book/book'
+import Reader from 'components/reader/reader'
 
 import 'common/stylus/base.styl'
 
@@ -29,7 +30,8 @@ router.map({
   '/book/:fiction_id': {
     name: 'book',
     component: Book
-  }
+  },
+  '/reader': { component: Reader }
 })
 
 router.start(app, '#app')
