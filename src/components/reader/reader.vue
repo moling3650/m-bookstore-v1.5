@@ -14,10 +14,10 @@
     </div>
 
     <div class="reader-body" :style="bgStyleObj" @click="toggleBar" @scroll="bodyScroll" v-el:reader-body>
-      <ul class="chapters" :style="{fontSize: fontSize + 'px'}">
+      <ul class="chapters" v-show="contentShow" :style="{fontSize: fontSize + 'px'}">
         <li class="chapter" v-for="chapter in chapters" track-by="$index">
-          <h1 class="title">{{ chapter.t }}</h1>
-          <p class="paragraph" v-for="paragraph in chapter.p" track-by="$index">{{ paragraph }}</p>
+          <h1 class="title" v-text="chapter.t"></h1>
+          <p class="paragraph" v-for="paragraph in chapter.p" track-by="$index" v-text="paragraph"></p>
         </li>
       </ul>
     </div>
@@ -32,7 +32,7 @@
         <div class="bottom">
           <a class="item toc"></a>
           <a class="item font" :class="{'on': fontBarShow}" @click.prevent="toggleFontBar"></a>
-          <a class="item" :class="nightMode ? 'day' : 'night'" @click.prevent="switchMode"></a>
+          <a class="item" :class="nightMode ? 'day' : 'night'" @click.prevent="switchNightMode"></a>
           <a class="item download"></a>
         </div>
       </div>
@@ -83,7 +83,7 @@
       toggleFontBar () {
         this.fontBarShow = !this.fontBarShow
       },
-      switchMode () {
+      switchNightMode () {
         this.nightMode = !this.nightMode
         storageSetter('night-mode', this.nightMode)
       },
@@ -93,33 +93,33 @@
       },
       largeFontSize () {
         if (this.fontSize < 22) {
-          this.fontSize++
-          storageSetter('font-size', this.fontSize)
+          storageSetter('font-size', ++this.fontSize)
         }
       },
       smallFontSize () {
         if (this.fontSize > 12) {
-          this.fontSize--
-          storageSetter('font-size', this.fontSize)
+          storageSetter('font-size', --this.fontSize)
         }
       },
       getPrevChapter () {
         if (this.chapterId > 0) {
-          --this.chapterId
+          storageSetter(`${this.fictionId}-chapter_id`, --this.chapterId)
           this.refresh_reader_body()
         }
       },
       getNextChapter () {
         if (this.chapterId < this.book.chapter_count) {
-          ++this.chapterId
+          storageSetter(`${this.fictionId}-chapter_id`, ++this.chapterId)
           this.refresh_reader_body()
         }
       },
       refresh_reader_body () {
+        this.contentShow = false
         this.$nextTick(() => {
           getChapterContent(`/api/link?fiction_id=${this.fictionId}&chapter_id=${this.chapterId}`, chapter => {
             this.chapters.splice(0, this.chapters.length, chapter)
             this.$els.readerBody.scrollTop = 0
+            this.contentShow = true
           })
         })
       },
@@ -131,7 +131,6 @@
             this.hideBar()
             let rb = this.$els.readerBody
             let isBottom = (rb.scrollHeight - rb.scrollTop - rb.clientHeight) < (rb.clientHeight * 0.5)
-
             if (isBottom) {
               getChapterContent(`/api/link?fiction_id=${this.fictionId}&chapter_id=${++this.chapterId}`, chapter => {
                 this.chapters.push(chapter)
@@ -142,6 +141,8 @@
         }
       },
       init () {
+        this.hideBar()
+        this.contentShow = false
         this.fictionId = this.$route.query.fiction_id
         this.chapterId = parseInt(storageGetter(`${this.fictionId}-chapter_id`)) || 0
         this.fontSize = parseInt(storageGetter('font-size')) || 14
@@ -151,6 +152,7 @@
 
         getChapterContent(`/api/link?fiction_id=${this.fictionId}&chapter_id=${this.chapterId}`, chapter => {
           this.chapters.splice(0, this.chapters.length, chapter)
+          this.contentShow = true
         })
         getApiData(`/api/detail/${this.fictionId}`, data => { this.book = data.item })
       }
@@ -168,6 +170,7 @@
         barShow: false,
         popupShow: false,
         isAutoBuy: false,
+        contentShow: false,
         nightMode: false,
         fontBarShow: false,
         timer: null,
