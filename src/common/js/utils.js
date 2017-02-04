@@ -24,7 +24,7 @@ exports.parseHiddenInfo = (info) => {
   return obj
 }
 
-function getContent (jsonpUrl, timeout = 3000) {
+function getContent (jsonpUrl, timeout) {
   return new Promise((resolve, reject) => {
     if (Object.prototype.toString.call(jsonpUrl) !== '[object String]') {
       throw new Error('Type of param "jsonpUrl" is not string.')
@@ -56,12 +56,17 @@ function getContent (jsonpUrl, timeout = 3000) {
   })
 }
 
-exports.getChapterContent = (url, callback, timeout) => {
+exports.getChapterContent = (url, callback, errCallback = null, timeout = 3000) => {
+  if (typeof errCallback === 'number') {
+    [errCallback, timeout] = [null, errCallback]
+  }
   Vue.http.get(url).then(res => {
     if (res.body.result === OK) {
-      getContent(res.body.url, timeout).then(data => callback(data))
+      getContent(res.body.url, timeout)
+        .then(data => callback && callback(data))
+        .catch(err => errCallback && errCallback(err))
     }
-  })
+  }).catch(err => errCallback && errCallback(err))
 }
 
 exports.storageGetter = key => window.localStorage.getItem(PREFIX + key)

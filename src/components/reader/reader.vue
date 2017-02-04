@@ -103,23 +103,23 @@
       },
       getPrevChapter () {
         if (this.chapterId > 0) {
-          storageSetter(`${this.fictionId}-chapter_id`, --this.chapterId)
-          this.refresh_reader_body()
+          this.refresh_reader_body(this.chapterId - 1)
         }
       },
       getNextChapter () {
         if (this.chapterId < this.book.chapter_count) {
-          storageSetter(`${this.fictionId}-chapter_id`, ++this.chapterId)
-          this.refresh_reader_body()
+          this.refresh_reader_body(this.chapterId + 1)
         }
       },
-      refresh_reader_body () {
+      refresh_reader_body (chapterId) {
         this.contentShow = false
         this.$nextTick(() => {
-          getChapterContent(`/api/link?fiction_id=${this.fictionId}&chapter_id=${this.chapterId}`, chapter => {
+          getChapterContent(`/api/link?fiction_id=${this.fictionId}&chapter_id=${chapterId}`, chapter => {
             this.chapters.splice(0, this.chapters.length, chapter)
             this.$els.readerBody.scrollTop = 0
             this.contentShow = true
+            this.chapterId = chapterId
+            storageSetter(`${this.fictionId}-chapter_id`, chapterId)
           })
         })
       },
@@ -132,12 +132,12 @@
             let rb = this.$els.readerBody
             let isBottom = (rb.scrollHeight - rb.scrollTop - rb.clientHeight) < (rb.clientHeight * 0.5)
             if (isBottom) {
-              getChapterContent(`/api/link?fiction_id=${this.fictionId}&chapter_id=${++this.chapterId}`, chapter => {
+              getChapterContent(`/api/link?fiction_id=${this.fictionId}&chapter_id=${this.chapterId + 1}`, chapter => {
                 this.chapters.push(chapter)
-                storageSetter(`${this.fictionId}-chapter_id`, this.chapterId)
+                storageSetter(`${this.fictionId}-chapter_id`, ++this.chapterId)
               })
             }
-          }, 500)
+          }, 1000)
         }
       },
       init () {
