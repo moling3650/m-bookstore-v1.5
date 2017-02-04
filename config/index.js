@@ -14,6 +14,7 @@ module.exports = {
     // Before setting to `true`, make sure to:
     // npm install --save-dev compression-webpack-plugin
     productionGzip: false,
+    port: 9000,
     productionGzipExtensions: ['js', 'css']
   },
   dev: {
