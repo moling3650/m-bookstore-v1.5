@@ -41,7 +41,7 @@ function getContent (jsonpUrl, timeout) {
         clearTimeout(timer)
         HEAD_NODE.removeChild(paddingScript)
         delete window[CALLBACK]
-        reject({ statusText: 'Request Timeout', status: 408 })
+        reject({ result: 1, statusText: 'Request Timeout', status: 408 })
       }, timeout)
     }
 

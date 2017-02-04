@@ -153,6 +153,9 @@
         getChapterContent(`/api/link?fiction_id=${this.fictionId}&chapter_id=${this.chapterId}`, chapter => {
           this.chapters.splice(0, this.chapters.length, chapter)
           this.contentShow = true
+        }, () => {
+          window.alert('加载失败，点击重新加载')
+          this.init()
         })
         getApiData(`/api/detail/${this.fictionId}`, data => { this.book = data.item })
       }
