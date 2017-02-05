@@ -138,7 +138,7 @@
       },
       addWaterfallBooks () {
         let start = this.waterfallBooks.length
-        getApiData(`/api/recommend?strat=${start}`, data => {
+        getApiData(`/api/recommend?start=${start}`, data => {
           if (start === this.waterfallBooks.length) {
             this.waterfallBooks.push(...data.items)
           }
